@@ -1,5 +1,5 @@
 title:            Ardour 3
-description:      A responsive Jekyll theme with modern tendencies from designer Michael Rose.
+description:      An updated version of the original FLOSS manual.
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
@@ -7,14 +7,14 @@ url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Michael Rose
+  name:           Bruno Ruviaro
   avatar:         avatar.jpg
-  bio:            "Just another boring, tattooed, time traveling designer hailing from Buffalo New York."
+  bio:            "Bruno is from Brazil."
   email:          
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        mmistakes
+  twitter:        brunoruviaro
   facebook:       
-  github:         mmistakes
+  github:         brunoruviaro
   stackexchange:  
   linkedin:       
   instagram:        
