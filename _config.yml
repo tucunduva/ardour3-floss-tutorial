@@ -1,4 +1,4 @@
-title:            Ardour 3 Tutorial
+title:            Ardour 3
 description:      An updated version of the original FLOSS manual.
 disqus_shortname: hpstrtheme
 reading_time:     true
@@ -14,7 +14,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         https://github.com/brunoruviaro/ardour3-floss-tutorial/
+  github:         brunoruviaro/ardour3-floss-tutorial/
   stackexchange:  
   linkedin:       
   instagram:        
