@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Start Here
+title: Start Here!
 description: "How to navigate this tutorial."
 modified: 2014-12-20
 tags: [tutorialindex]
