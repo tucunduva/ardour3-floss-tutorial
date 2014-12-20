@@ -1,4 +1,4 @@
-title:            Ardour 3
+title:            Ardour 3 Tutorial
 description:      An updated version of the original FLOSS manual.
 disqus_shortname: hpstrtheme
 reading_time:     true
@@ -7,14 +7,14 @@ url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Ardour 3 FLOSS Manual
+  name:           Ardour 3 Tutorial
   avatar:         ardour3-icon.png
-  bio:            "An updated version of the original Ardour 2 FLOSS Manual."
+  bio:            "An updated version of the original Ardour FLOSS Manual."
   email:          
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        brunoruviaro
+  twitter:        
   facebook:       
-  github:         brunoruviaro
+  github:         https://github.com/brunoruviaro/ardour3-floss-tutorial/
   stackexchange:  
   linkedin:       
   instagram:        
