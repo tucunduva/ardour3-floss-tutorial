@@ -7,9 +7,9 @@ url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Bruno Ruviaro
+  name:           Ardour 3 FLOSS Manual
   avatar:         ardour3-icon.png
-  bio:            "Bruno is from Brazil."
+  bio:            "An updated version of the original Ardour 2 FLOSS Manual."
   email:          
   # Social networking links used in footer. Update and remove as you like.
   twitter:        brunoruviaro
