@@ -3,14 +3,14 @@ description:      A responsive Jekyll theme with modern tendencies from designer
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
-url:              //mmistakes.github.io/hpstr-jekyll-theme
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
   name:           Michael Rose
   avatar:         avatar.jpg
   bio:            "Just another boring, tattooed, time traveling designer hailing from Buffalo New York."
-  email:          michael@mademistakes.com
+  email:          
   # Social networking links used in footer. Update and remove as you like.
   twitter:        mmistakes
   facebook:       
