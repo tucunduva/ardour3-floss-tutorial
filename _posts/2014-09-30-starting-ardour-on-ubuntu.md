@@ -23,8 +23,6 @@ and type Ardour. You can then click on the Ardour icon, or simply hit
 Click on **Ardour Digital Audio Workstation 3** and the program will
 start.
 
-![HPSTR Theme Preview screenshot](http://brunoruviaro.github.io/ardour3-floss-tutorial/images/Ardour3_Ubuntu_Dash.png)
-
 Once you have started Ardour, the **Session Control** window shows up.
 You can click on **New Session** to create a brand new session, or you
 can open an existing session using the **Recent Sessions** and **Other
@@ -35,3 +33,6 @@ Name your new project and click **Open** .
 
 ![New Session](../images/Ardour3_New_Session_Simple.png)
 
+## Continuing
+
+Next: [An Overview of the Interface](../an-overview-of-the-interface)
