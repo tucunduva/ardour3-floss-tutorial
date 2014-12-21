@@ -7,6 +7,15 @@ tags: [sample post, images, test]
 
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+And let's go on to the examples.
+Here's another one, using the local folder.
+
+![Image of Ardour](/images/Ardour3_Add_As_New_Track.png)
+
+Isn't that great?
+
 ## Figures (for images or video)
 
 ### One Up
