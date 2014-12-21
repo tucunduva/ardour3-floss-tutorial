@@ -21,7 +21,7 @@ name for it. You also need to tell Ardour where you would like the
 Session folder to be stored. When you are ready, click '*Open*'. Ardour
 will create the new Session and then open it.
 
-![New Session](/images/Ardour3_New_Session_Simple.png) 
+![New Session](../images/Ardour3_New_Session_Simple.png) 
 
 Advanced Options
 ----------------
@@ -37,7 +37,7 @@ will have finer control over the following options:
 -   Whether or not to automatically connect outputs to either Master Bus
     or outputs of the audio interface, and how many channels to use. 
 
-![New Session Set-Up](/images/Ardour3_New_Session_Setup_2.png) 
+![New Session Set-Up](../images/Ardour3_New_Session_Setup_2.png) 
 
 Note you cannot directly choose the **Sample Rate** (the number of audio
 samples recorded in one second) of the new Session. This will be the

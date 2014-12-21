@@ -44,7 +44,7 @@ main way to make connections to, from ,and within Ardour's mixer. You
 can open this window with the shortcut "*Alt*" + "*P*", or through the
 menu *Window > Audio Connection Manager*.
 
-![Audio Connection Manager](/images/Ardour3_Audio_Connection_Manager_Menu.png) 
+![Audio Connection Manager](../images/Ardour3_Audio_Connection_Manager_Menu.png) 
 
 The patchbay presents two groups of ports; one set of sources, and one
 of destinations. Sources and destinations are organized by tabs. The
@@ -57,7 +57,7 @@ a destination in the bottom. This means that the matrix you see displays
 connections from available hardware sound sources (for example, a
 microphone), into existing Ardour tracks.  
 
-![ACM 1](/images/Ardour3_Audio_Connection_Manager_1.png) 
+![ACM 1](../images/Ardour3_Audio_Connection_Manager_1.png) 
 
 The green dots represent a connection. The screenshot above tells us
 that incoming sounds from "*system: capture\_1*" (the first input source
@@ -75,7 +75,7 @@ vertical tab) into Ardour Busses (selected horizontal tab). As mentioned
 earlier, the default setting for all Ardour Tracks is that their sound
 goes to the Master Bus.
 
-![ACM 2](/images/Ardour3_Audio_Connection_Manager_2.png) 
+![ACM 2](../images/Ardour3_Audio_Connection_Manager_2.png) 
 
 Note: remember that "*Audio 1*" is a Mono track? We saw it in the
 earlier screenshot that "*Audio 1*" only has one input slot. But now on
@@ -90,7 +90,7 @@ Finally, let's explore a couple more tabs in the Audio Connection
 Manager to see the sound going from the Master Bus to the actual
 hardware outputs (your loudspeakers or headphones):
 
-![ACM 3](/images/Ardour3_Audio_Connection_Manager_3.png) 
+![ACM 3](../images/Ardour3_Audio_Connection_Manager_3.png) 
 
 As you can see, the selected source tab is now "*Ardour Busses*", and
 the destination tab is "*Hardware*". This session happens to have only
@@ -111,7 +111,7 @@ disappear.
 In the following example session, there are two guitar Tracks and one
 unused Bus called Guitar Bus, all Stereo.
 
-![ACM 4](/images/Ardour3_Ardour_Connection_Manager_4.png) 
+![ACM 4](../images/Ardour3_Ardour_Connection_Manager_4.png) 
 
 Suppose you want to send the output from the two guitar Tracks to the
 Guitar Bus instead of the Master Bus. This can be useful to control the
@@ -125,7 +125,7 @@ from destinations (horizontal bottom tabs). Undo existing connections
 from both Tracks to Master. Then create connections from both Tracks to
 Guitar Bus. The final result would look like this: 
 
-![ACM 5](/images/Ardour3_Audio_Connection_Manager_5.png) 
+![ACM 5](../images/Ardour3_Audio_Connection_Manager_5.png) 
 
 Now both guitar tracks are routed to the Guitar Bus, and no longer
 directly connected to the Master Bus. We then make sure that the Guitar
@@ -146,7 +146,7 @@ Ardour allows you to view only a relevant subset of the Patchbay when
 you click directly on the Inputs or Outputs button of a Track or Bus in
 the Mixer Strip.
 
-![Editor Mixer In Out](/images/Ardour3_Editor_Mixer_In_Out.png)
+![Editor Mixer In Out](../images/Ardour3_Editor_Mixer_In_Out.png)
 
 The Inputs button is at the top, and the Outputs button is on the bottom
 of the strip. Clicking on either one will show you a smaller Patchbay
@@ -160,7 +160,7 @@ other applications like Qjackctl, Catia, or JackPilot, depending on your
 Operational System. Below is an example of a Catia window (Linux only)
 displaying the same JACK connections discussed above:
 
-![Catia](/images/Ardour3_Catia_Example.png) 
+![Catia](../images/Ardour3_Catia_Example.png) 
 
 Continuing
 ----------
