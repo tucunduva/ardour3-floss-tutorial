@@ -48,4 +48,4 @@ Continuing
 Next, we will explore **Using Ranges** to set up a loop we can listen to
 while we arrange the rhythm.
 
-Next: [USING RANGES](/using-ranges)
+Next: [USING RANGES](../using-ranges)

@@ -102,4 +102,4 @@ This concludes the **Getting Started** chapters. Now that you have
 some audio imported, recorded from a line or microphone input, or even
 from another application, proceed to the **Arranging Tracks** section and learn how to arrange your composition.
 
-Next: [ARRANGING TRACKS](/arranging-tracks)
+Next: [ARRANGING TRACKS](../arranging-tracks)

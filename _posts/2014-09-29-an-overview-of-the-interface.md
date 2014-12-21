@@ -68,7 +68,7 @@ select a format. You can also turn the clock off. The reason for having
 two transport clocks is that it allows you to see the playhead position
 in two different time units without having to change any settings. 
 
-Please see the [**Setting Up the Timeline**](/setting-up-the-timeline) chapter for more details on the
+Please see the [**Setting Up the Timeline**](../setting-up-the-timeline) chapter for more details on the
 Clocks.
 
 ### Edit Modes and Cursor Modes
@@ -239,4 +239,4 @@ Continuing
 
 The next chapter will explain how to start a fresh new project.
 
-Next: [STARTING A SESSION](/starting-a-session)
+Next: [STARTING A SESSION](../starting-a-session)

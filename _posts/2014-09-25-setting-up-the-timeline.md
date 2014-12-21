@@ -108,4 +108,4 @@ Continuing
 Now that you've set up the Timeline, continue on to the chapter on
 creating tracks and busses to add one or more **Tracks** to your Session. 
 
-Next: [CREATING A TRACK OR BUS](/creating-a-track-or-bus)
+Next: [CREATING A TRACK OR BUS](../creating-a-track-or-bus)

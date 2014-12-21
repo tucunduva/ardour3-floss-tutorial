@@ -283,4 +283,4 @@ overlap with each other).
 
 In the next chapter, we will explore a few more things you can do with Regions
 
-Next: [FURTHER REGION OPERATIONS](/further-region-operations)
+Next: [FURTHER REGION OPERATIONS](../further-region-operations)

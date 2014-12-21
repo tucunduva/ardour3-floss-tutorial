@@ -76,4 +76,4 @@ Continuing
 In the next step, we will learn about **Working With Regions** to
 compose a rhythm with these samples.
 
-Next: [WORKING WITH REGIONS](/working-with-regions)
+Next: [WORKING WITH REGIONS](../working-with-regions)

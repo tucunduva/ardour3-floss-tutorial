@@ -166,11 +166,11 @@ record) and type in the new name.
 Continuing
 ----------
 
-At this point, you may want to skip directly ahead to the [**Arranging Tracks**](/arranging-tracks) section
+At this point, you may want to skip directly ahead to the [**Arranging Tracks**](../arranging-tracks) section
 to learn how to arrange the Regions 
 into a composition. If you plan on doing more complicated Recording than
 what we have discussed here, in particular with a multichannel
 soundcard, or from other JACK-enabled audio programs on your computer,
-you should also have a look at the [**Understanding Routing**](/understanding-routing) chapter.
+you should also have a look at the [**Understanding Routing**](../understanding-routing) chapter.
 
-Next: [ARRANGING TRACKS](/arranging-tracks) or [UNDERSTANDING ROUTING](/understanding-routing)
+Next: [ARRANGING TRACKS](../arranging-tracks) or [UNDERSTANDING ROUTING](../understanding-routing)

@@ -76,4 +76,4 @@ Continuing
 In the next step we will learn about **Setting Up the Meter** to
 organize these samples into a rhythm.
 
-Next: [SETTING UP THE METER](/setting-up-the-meter)
+Next: [SETTING UP THE METER](../setting-up-the-meter)

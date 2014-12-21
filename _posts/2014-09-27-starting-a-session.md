@@ -56,4 +56,4 @@ Once you've started a Session, you will most likely want to learn about
 setting up the timeline to match the kind of musical meter or other
 timeframe which you will use. Please continue to the next chapter. 
 
-Next: [SETTING UP THE TIMELINE](/setting-up-the-timeline)
+Next: [SETTING UP THE TIMELINE](../setting-up-the-timeline)

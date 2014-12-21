@@ -43,7 +43,7 @@ accessible from these menus.
     "*N*"), **Boost Gain**, and **Cut Gain**.
 -   **Duplicate**: includes Duplicate, Multi-Duplicate, and Fill Track.
     These were explained in detail in the chapter [Working with
-    Regions](/working-with-regions). 
+    Regions](../working-with-regions). 
 -   **Spectral Analysis**: window displaying the overall frequency
     content of the Region.
 
@@ -118,4 +118,4 @@ attached to its name.
 In the following chapter, we will learn a bit more about the powerful
 tools Ardour has available by changing **Edit Modes**.
 
-Next: [CHANGING EDIT MODES](/changing-edit-modes)
+Next: [CHANGING EDIT MODES](../changing-edit-modes)

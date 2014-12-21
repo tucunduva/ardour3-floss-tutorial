@@ -152,4 +152,4 @@ At this point, you may wish to add some new material to your Session by
 directly ahead to the **Editing Sessions** section to learn how to
 arrange the Regions you have Imported into a composition.
 
-Next: [RECORDING AUDIO](/recording-audio) or [ARRANGING TRACKS](/arranging-tracks)
+Next: [RECORDING AUDIO](../recording-audio) or [ARRANGING TRACKS](../arranging-tracks)

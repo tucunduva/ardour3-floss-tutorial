@@ -173,7 +173,7 @@ this works, please continue to the chapter **Routing Between
 Applications**. If you would prefer to work only with Ardour, then skip
 ahead to the section on **Arranging Tracks**.
 
-Next: [ROUTING BETWEEN APPLICATIONS](/routing-between-applications) or [ARRANGING TRACKS](/arranging-tracks)
+Next: [ROUTING BETWEEN APPLICATIONS](../routing-between-applications) or [ARRANGING TRACKS](../arranging-tracks)
 
 
  
