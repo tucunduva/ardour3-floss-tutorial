@@ -19,7 +19,7 @@ and it can use LADSPA, LV2, VST and AudioUnit plugin formats.
 
 Ardour runs on Linux and Mac OS X, and uses the **Jack Audio Connection
 Kit** (**JACK**) to interface with the computer's sound card, as well as
-with other audio applications running on the same system. \
+with other audio applications running on the same system.
 
 More information on Ardour can be found at
 [http://ardour.org/](http://ardour.org/ "http://ardour.org/").
