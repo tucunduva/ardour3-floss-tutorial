@@ -18,7 +18,7 @@ On Ubuntu, you can find and launch software using the Dash. Tap the
 and type Ardour. You can then click on the Ardour icon, or simply hit
 *Enter* when Ardour is the first search result:
 
-![Dash](/ardour3-floss-tutorial/images/Ardour3_Ubuntu_Dash.png)
+![Dash](/images/Ardour3_Ubuntu_Dash.png)
 
 Click on **Ardour Digital Audio Workstation 3** and the program will
 start.
