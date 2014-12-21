@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction
+title: What is Ardour?
 description: "The Introduction"
 modified: 
 tags: [intro]
@@ -9,9 +9,6 @@ image:
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
-
-Ardour
-======
 
 **Ardour** is a full-featured, free and open-source hard disk recorder
 and digital audio workstation program suitable for professional use. It
