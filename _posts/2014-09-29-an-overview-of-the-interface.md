@@ -1,12 +1,19 @@
-Ardour: InterfaceOverview
+---
+layout: post
+title: "An Overview of the Interface"
+description:
+modified: 
+tags: [02 GETTING STARTED]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
-An Overview of the Interface 
-=============================
+This section will give you an overview of the basic interface of Ardour.
 
-This section will give you an overview of the basic interface of Ardour,
-as found in the **Editor Window** and the **Mixer Window**. Later
-chapters will give more detailed information on each feature listed
-here.
+We will take a look at the **Editor Window** and the **Mixer Window**. Later
+chapters will give more detailed information on each feature listed here.
 
 The Editor Window
 -----------------
@@ -16,7 +23,7 @@ the **Editor Window**. The Editor Window is the most important window in
 Ardour, as this is how you will control the program as well as see and
 edit the audio you have recorded or imported.
 
-![](static/Ardour3_Empty_Session.png) \
+![Empty Session](/images/Ardour3_Empty_Session.png)
 
 At the top of the Editor Window are several main areas: the **Transport
 Menu**, the **Clocks**, the **Edit** **Modes/Cursor Modes** menu, the
@@ -27,16 +34,16 @@ a set of tabs allowing for an overview of the **Regions**,
 **Tracks/Busses**, **Snapshots**, **Edit Groups** and **Chunks** appear
 on the right. The very bottom of the window is the **Summary** view,
 which is a miniature timeline view allowing for quick navigation through
-the session. \
+the session.
 
 We will introduce these controls briefly here and cover them more
-extensively in dedicated chapters later on. \
+extensively in dedicated chapters later on.
 
 ### Transport Menu
 
-![](static/Ardour3_Transport_Menu.png) \
+![Transport Menu](/images/Ardour3_Transport_Menu.png)
 
-The **Transport Menu**controls include the following buttons:
+The **Transport Menu** controls include the following buttons:
 
 -   MIDI Panic
 -   Enable/Disable audio click (metronome)
@@ -51,7 +58,7 @@ The **Transport Menu**controls include the following buttons:
 
 ### Clocks
 
-![](static/Ardour3_Clocks.png) \
+![Clocks](/images/Ardour3_Clocks.png) 
  
 
 The main **Clocks** are located next to the transport controls. Clocks
@@ -59,14 +66,14 @@ in Ardour can display time in 4 different formats: Time Code,
 Bars:Beats, Minutes:Seconds, and Samples. Right-click on the clock to
 select a format. You can also turn the clock off. The reason for having
 two transport clocks is that it allows you to see the playhead position
-in two different time units without having to change any settings. \
+in two different time units without having to change any settings. 
 
-Please see the Setting Up the Timeline chapter for more details on the
+Please see the [**Setting Up the Timeline**](/setting-up-the-timeline) chapter for more details on the
 Clocks.
 
 ### Edit Modes and Cursor Modes
 
-![](static/Ardour3_Edit_Modes_Cursor_Modes.png) \
+![Edit Modes](/images/Ardour3_Edit_Modes_Cursor_Modes.png) 
 
 The **Edit Modes** and **Cursor Modes** controls define the behavior of
 the main canvas and the different functions the cursor can have. There
@@ -74,10 +81,10 @@ are three Edit Modes in the drop-down menu: **Slide Edit**, **Splice
 Edit**, and **Lock Edit**. To the right of the Smart button are the
 Cursor Modes:
 
--   **Select/Move Object**(shortcut *"O"*)
--   **Select/Move Range**(shortcut *"R"*)
--   ******Select Zoom Range** (shortcut *"Z"*)
--   **Draw Region Gain**(shortcut *"G"*)
+-   **Select/Move Object** (shortcut *"O"*)
+-   **Select/Move Range** (shortcut *"R"*)
+-   **Select Zoom Range** (shortcut *"Z"*)
+-   **Draw Region Gain** (shortcut *"G"*)
 -   **Stretch/Shrink Regions** (shortcut *"T"*)
 -   **Listen to Specific Regions**
 -   **Draw/Edit MIDI notes** (shortcut *"D"*)
@@ -90,11 +97,11 @@ Ardour, so the the last two modes will not be covered.
 The **Smart Mode** button to the left of the mouse mode buttons modifies
 Object mode. When enabled, the mouse behaves as if it is in "Range Tool"
 mode in the upper half of a region, and in "Object Tool" mode in the
-lower half. \
+lower half. 
 
 ### Snap Options
 
-![](static/Ardour3_Snap_Options_and_Nudge_Controls.png) \
+![Snap](/images/Ardour3_Snap_Options_and_Nudge_Controls.png) 
 
 The **Snap Options** menu controls the **Grid**, **Grid Points** and
 **Edit Point**. Please see the chapters on **Setting Up the Meter**,
@@ -102,14 +109,15 @@ The **Snap Options** menu controls the **Grid**, **Grid Points** and
 
 ### Zoom Options
 
-![](/ardour3/_edit/static/Ardour3_Zoom_Options.png) \
+![Zoom Options](/images/Ardour3_Zoom_Options.png) 
 
 In between **Cursor Modes** and **Snap Options** are the **Zoom
 Options**. Here you can define the behavior of zooming operations. You
 have standard **Zoom In** and **Zoom Out** buttons, plus a third called
 **Zoom to Session** (useful for having a quick overview of your entire
-session: it zooms it to fit the available space on the screen). Useful
-shortcuts: **+** (the plus sign on your main keyboard) for Zoom In, and
+session: it zooms it to fit the available space on the screen).
+
+> TIP: use the shortcuts **+** (the plus sign on your main keyboard) for Zoom In, and
 **-** (the dash key on your main keyboard) for Zoom Out.
 
 The drop-down menu controls the **Zoom Focus**. It defines the focus
@@ -120,9 +128,7 @@ Playhead. Mouse will take your current mouse position as the reference,
 and so on.
 
 The last two buttons are a kind of "vertical zoom." They allow you to
-expand and shrink all tracks and busses vertically. \
-
-### 
+expand and shrink all tracks and busses vertically. 
 
 ### Auxiliary Controls
 
@@ -149,7 +155,7 @@ don't need in order to save screen space. More information on these
 operations can be found in the **Setting up the Timeline** and **Setting
 up the Meter** chapters.
 
-![ardour\_overview\_rulers\_1.png](static/Ardour-InterfaceOverview-ardour_overview_rulers_1-en.png)
+![Ardour Overview Rulers](/images/Ardour3_Overview_Rulers.png)
 
 ### Tracks and Busses
 
@@ -158,9 +164,9 @@ example below, you can see one Bus called "*master*" and one Track
 called "*My Track*". "My Track" also contains one region, which
 represents an audio file with a drawing of its waveform. More
 information on Tracks and Busses can be found in the **Creating a Track
-or Bus**chapter. \
+or Bus** chapter. 
 
-![](static/Ardour3_Track.png) \
+![Ardour Track](/images/Ardour3_Track.png) 
 
 ### Editor Mixer
 
@@ -168,12 +174,12 @@ The Editor Mixer is located at the left of the Edit Window. It displays
 the **Mixer Strip** of the currently selected Track or Bus. It controls
 the volume, Plugins and Routing for the Track or Bus to which it
 corresponds. You can toggle to view or hide the Editor Mixer by clicking
-on the menu *View* \> *Show Editor Mixer* (shortcut *"Shift"* + *"E"*).
+on the menu *View* > *Show Editor Mixer* (shortcut *"Shift"* + *"E"*).
 This Mixer is covered in the **Using the Mixer Strip** chapter.
 
-![](/ardour3/_edit/static/Ardour3_Editor_Mixer.png)
+![Editor Mixer](/images/Ardour3_Editor_Mixer.png)
 
-### Regions, Tracks/Busses, Snapshots, Edit Groups, Chunks
+### Regions, Tracks/Busses, Snapshots, Groups, Ranges, Marks
 
 The space on the right of Ardour's Editor Window can have 5 different
 functions, depending on which tab is currently selected: **Regions**,
@@ -186,15 +192,15 @@ information on Regions can be found in the **Working With Regions**
 chapter. The Tracks tab is covered in the **Arranging Tracks** chapter,
 and Snapshots are discussed in the **Saving Snapshots** chapter.
 
-![](static/Ardour3_Region_List.png) \
+![Region List](/images/Ardour3_Region_List.png) 
 
 Mixer Window Controls
 ---------------------
 
 The second window, the **Mixer Window**, can be viewed by going to the
-main menu and clicking *Window \> Show Mixer*.
+main menu and clicking *Window > Show Mixer*.
 
-![](static/Ardour3_Mixer_Window_1.png) \
+![Mixer Window](/images/Ardour3_Mixer_Window_1.png) 
 
 The main function of the Mixer Window is to display all the Mixer Strips
 for the various Tracks side by side for easy reference. This window is
@@ -202,7 +208,7 @@ mainly used during the **Mixing** process, and it also provides access
 **Plugins** and other **Routing** features. See the chapters on
 **Understanding Routing**, **Mixing** and **Using Plugins** for details.
 
-![](static/Ardour3_Mixer_Window_2.png) \
+![Mixer Window](/images/Ardour3_Mixer_Window_2.png) 
 
 This window also contains a listing of the available Mixer Strips in the
 upper left hand corner. The check boxes in this area can be used to view
@@ -220,13 +226,17 @@ Detaching and Reattaching Menus
 
 Most of the major menus in the Editor Window can be detached from the
 Editor Window by clicking the white, downwards pointing arrow on the far
-right-hand side of that menu. \
+right-hand side of that menu.
 
-![](static/Ardour3_Zoom_Options.png) \
+![Zoom Options](/images/Ardour3_Zoom_Options.png)
 
 The detached menu will become a separate window on your screen, which
 can be reattached to the Editor Window by clicking the white,
 upwards-pointing arrow which now appears on the far right-hand side.
 
-\
+Continuing
+----------
 
+The next chapter will explain how to start a fresh new project.
+
+Next: [STARTING A SESSION](/starting-a-session)

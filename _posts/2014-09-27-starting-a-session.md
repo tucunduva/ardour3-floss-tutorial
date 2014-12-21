@@ -1,7 +1,14 @@
-Ardour: StartSession
-
-Starting a Session
-==================
+---
+layout: post
+title: "Starting a Session"
+description:
+modified: 
+tags: [02 GETTING STARTED]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
 Ardour groups your work in **Sessions**. A Session is a group of
 **Tracks** which eventually may be mixed down into a single Mono, Stereo
@@ -14,7 +21,7 @@ name for it. You also need to tell Ardour where you would like the
 Session folder to be stored. When you are ready, click '*Open*'. Ardour
 will create the new Session and then open it.
 
-![](static/Ardour3_New_Session_Simple_1.png) \
+![New Session](/images/Ardour3_New_Session_Simple.png) 
 
 Advanced Options
 ----------------
@@ -28,9 +35,9 @@ will have finer control over the following options:
     audio interface (the sound card) to Tracks in the session, and how
     many channels to use.
 -   Whether or not to automatically connect outputs to either Master Bus
-    or outputs of the audio interface, and how many channels to use. \
+    or outputs of the audio interface, and how many channels to use. 
 
-![](static/Ardour3_New_Session_Setup_2.png) \
+![New Session Set-Up](/images/Ardour3_New_Session_Setup_2.png) 
 
 Note you cannot directly choose the **Sample Rate** (the number of audio
 samples recorded in one second) of the new Session. This will be the
@@ -40,12 +47,13 @@ a Session created when JACK was running at 96 kHz will not open if JACK
 is currently running at 48 kHz.
 
 To create an Ardour session after Ardour has already started, select
-**Session** \> **New** in the menu.
+**Session** > **New** in the menu.
 
 Continuing
 ----------
 
 Once you've started a Session, you will most likely want to learn about
-**Setting Up the Timeline** to match the kind of musical meter or other
-timeframe which you will use. Please continue to the next chapter. \
+setting up the timeline to match the kind of musical meter or other
+timeframe which you will use. Please continue to the next chapter. 
 
+Next: [SETTING UP THE TIMELINE](/setting-up-the-timeline)

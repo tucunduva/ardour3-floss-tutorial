@@ -1,7 +1,16 @@
-Ardour: RegionsRightClickOperations
+---
+layout: post
+title: "Further Region Operations"
+description:
+modified: 
+tags: [03 EDITING SESSIONS]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
-Further Region Operations
-=========================
+Here you will learn a few more things you can do with Regions.
 
 Right-clicking a selected Region reveals a context menu. The first item
 in the menu (labeled with the Region's name) contains a large sub-menu.
@@ -11,11 +20,9 @@ menu.
 This section describes a few of the most commonly used operations
 accessible from these menus.
 
-![](static/Ardour3_Region_Menu_1.png) \
+![region menu 1](/images/Ardour3_Region_Menu_1.png)
 
-### 
-
--   **Play**: play back your session from the beginning to the end of
+-   **Play**: play back from the beginning to the end of
     that Region (shortcut "*H*").
 -   **Loop**: set the loop range to fit that region's duration, and
     start looping it right away.
@@ -28,26 +35,26 @@ accessible from these menus.
     Regions will be unlocked.
 -   **Edit**: in this sub-menu you find useful tools such as
     **Mute**(shortcut "*Control*" + "*M*"), **Pitch Shift** (shortcut
-    "*Alt*" + "*T*") and **Reverse**(shortcut "*Alt*" + "*R*"). Mute
+    "*Alt*" + "*T*") and **Reverse** (shortcut "*Alt*" + "*R*"). Mute
     renders the region silent. Pitch Shift alters the pitch of a region
     without changing its duration. Reverse makes the region play
     backwards.
 -   **Gain**: useful options such as **Normalize** (shortcut
-    "*N*"),**Boost Gain**, and **Cut Gain**.
+    "*N*"), **Boost Gain**, and **Cut Gain**.
 -   **Duplicate**: includes Duplicate, Multi-Duplicate, and Fill Track.
-    These were explained in detail in the chapter **Working with
-    Regions**. \
+    These were explained in detail in the chapter [Working with
+    Regions](/working-with-regions). 
 -   **Spectral Analysis**: window displaying the overall frequency
     content of the Region.
 
 Feel free to explore by yourself other sub-menus not mentioned above.
 Many of them are mirrors of the options you find under Ardour's
-**Region** menu. Below we go into a bit more details on some of the most
-useful functions. \
+*Region* menu. Below we go into a bit more details on some of the most
+useful functions. 
 
-### Pitch Shifting
+## Pitch Shifting
 
-The **Pitch Shift**function mentioned above (shortcut "*Alt*" + "*T*")
+The **Pitch Shift** function (shortcut "*Alt*" + "*T*" with a selected region)
 alters the pitch of a region without changing its duration. The function
 applies a pitch-shifting algorithm to create a new audio clip based on
 the source clip.
@@ -58,42 +65,43 @@ button. When pitch shifting by large amounts, the Preserve Formants
 option can give results that sound slightly more natural, particularly
 when used on vocal material.
 
-![](static/Ardour3_Pitch_Shift_Window.png) 
+![pitch shift](/images/Ardour3_Pitch_Shift_Window.png) 
 
-### Normalize
+## Normalize
 
-The **Normalize** function mentioned above (shortcut "*N*")
+The **Normalize** function (shortcut "*N*" with a selected region)
 non-destructively boosts the level of the selected Region so that the
 **Peaks** are at 0 dB or less. When Normalizing to 0.0, the region will
 be as loud as possible while avoiding **Clipping**. Sometimes you may
 find useful to normalize a region to a value less than 0, such as -1.0,
--3.0, or -6.0 decibels, so it doesn't become too loud. \
+-3.0, or -6.0 decibels, so it doesn't become too loud. 
 
-![](static/Ardour3_Normalize_Window.png) \
+![normalize](/images/Ardour3_Normalize_Window.png) 
 
-### Reverse
+## Reverse
 
 The **Reverse** function (shortcut "*Alt*" + "*R*") reverses the
 selected region of audio, in effect causing it to play backwards.
 Reversing a region creates a new audio file 'behind the scenes'.
 
-Operations on two or more selected Ranges
------------------------------------------
+## Operations on two or more selected Ranges
 
 If more than one range is selected, the operation will apply to all of
 them (for example, Normalize, Reverse, etc.)
+
+### Combine
 
 Some operations from the context menu will only become available when
 two or more regions are selected. For example, take a look at the
 "Combine" function, under the sub-menu "Edit". First we select two
 adjacent regions:
 
-![](static/Ardour3_Region_Combine.png)
+![combine](/images/Ardour3_Region_Combine.png)
 
 Then we choose "Combine" from the right-click context menu, or from
-Ardour's main menu *Region \> Edit \> Combine*: \
+Ardour's main menu *Region > Edit > Combine*: 
 
-![](static/Ardour3_Region_Combine_2.png)
+![combine 2](/images/Ardour3_Region_Combine_2.png)
 
 As a result, the selected regions are combined into one. This is
 particulary useful when you have found an exact sequence of regions that
@@ -101,12 +109,13 @@ works just as you want, and then you would like to copy and/or move the
 whole sequence as group.
 
 Notice that the resulting combined region has the word "compound"
-attached to its name. \
+attached to its name. 
 
-![](static/Ardour3_Region_Combine_3.png) \
+![combine 3](/images/Ardour3_Region_Combine_3.png) 
 
-Continuing
-----------
+## Continuing
 
 In the following chapter, we will learn a bit more about the powerful
-tools Ardour has available by **Changing Edit Modes**.
+tools Ardour has available by changing **Edit Modes**.
+
+Next: [CHANGING EDIT MODES](/changing-edit-modes)

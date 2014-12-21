@@ -1,22 +1,31 @@
-Ardour: CreateATrack
+---
+layout: post
+title: "Creating a Track or a Bus"
+description:
+modified: 
+tags: [02 GETTING STARTED]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
-Creating a Track or a Bus
-=========================
-
-What is an Audio Track?  \
+What is an Audio Track?
 --------------------------
 
-****An **Audio** **Track** is a place where you can drag a **Region**
+An **Audio** **Track** is a place where you can drag a **Region**
 from your **Region List** and where you can record sounds coming from an
-outside source. A Region represents an audio clip, i.e., one of your
+outside source.
+
+A Region represents an audio clip, i.e., one of your
 sound files or just a portion of a sound file. In the image below, the
 horizontal strip areas marked "*Audio 1*" and "*Audio 2*" are Tracks.
 The rectangle containing audio information (named "*some-sound*") inside
-track *Audio 1* is called a Region. \
+track *Audio 1* is called a Region. 
 
-![](static/Ardour3_Tracks_1.png) \
+![Tracks](/images/Ardour3_Tracks.png) 
 
-What is a Bus? \
+What is a Bus? 
 ----------------
 
 A **Bus** is similar to a track except that it does not contain its own
@@ -25,7 +34,7 @@ In the image above, the area marked "*master*" is a Bus. Usually every
 session has a **Master Bus**. All the audio to be **Exported**  from
 your Session will be sent to the Master Bus.
 
-How are Tracks and Busses Used? \
+How are Tracks and Busses Used? 
 ---------------------------------
 
 Audio-processing **Plugins** and **Automation** can be applied to both
@@ -42,16 +51,16 @@ separate Track that feeds into it.
 
 Another use of a Bus would be to have a common **Reverberation** Plugin,
 so that any audio Track which requires the Reverb effect could be routed
-to a single Bus. \
+to a single Bus. 
 
 Adding Tracks and Busses
 ------------------------
 
 Right-Click in the empty area beneath any existing Tracks and Busses.
-Alternatively, click on the menu *Track \> Add Track/Bus* (shortcut
+Alternatively, click on the menu *Track > Add Track/Bus* (shortcut
 "*Ctrl*" + "*Shift*" + "*N*"). The following window will appear:
 
-![](static/Ardour3_Add_Track_or_Bus.png) \
+![Add Track](/images/Ardour3_Add_Track_or_Bus.png) 
 
 **Add** lets you specify how many Tracks (or Busses) you would to like
 to create.
@@ -63,7 +72,7 @@ the type of data they contain, and differentiates between three track
 modes, depending on their recording behaviour. This tutorial will only
 cover Audio Tracks and Busses (see the [Ardour
 Manual](http://manual.ardour.org/working-with-tracks/track-types/) for
-details on all track types) \
+details on all track types) 
 
 You can optionally give a **Name** to the Track or Bus being created.
 The **Configuration** drop-down menu allows you to specify how many
@@ -82,7 +91,6 @@ Manual](http://manual.ardour.org/working-with-tracks/track-types/).
 Additional information on the **Instrument** and **Group** options can
 be found on [this other page of the
 Manual](http://manual.ardour.org/working-with-tracks/adding-tracks-and-busses/).
-\
 
 Finally, click the **Add** button to create the Tracks or Busses you
 have just configured. You will see them appear as new rows in the **Main
@@ -93,5 +101,6 @@ Continuing
 
 Once you've added one or more Tracks, you will want to put some audio
 material into them to work with. Continue on to the **Importing Audio**
-and **Recording Audio** chapters to learn how to do this. \
+and **Recording Audio** chapters to learn how to do this. 
 
+Next: [IMPORTING AUDIO](/importing-audio)

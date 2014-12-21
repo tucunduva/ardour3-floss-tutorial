@@ -1,19 +1,26 @@
-Ardour: SettingUpTheMeter
-
-Setting Up the Meter
-====================
+---
+layout: post
+title: "Setting Up the Meter"
+description:
+modified: 
+tags: [03 EDITING SESSIONS]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
 The **Meter** determines the musical speed of the passage we are
-composing, as measured in **Beats Per Minute**. If we are composing
-something which is rhythmic, it will also determine the lengths of the
+composing, as measured in **Beats Per Minute**.
+
+If we are composing something which is rhythmic, it will also determine the lengths of the
 sound samples we use to some extent. So it is important to be able to
 set up the Meter before we continue.
 
 To see the meter-related timelines for our session, we can right-click
-anywhere in the Timeline and check the following options: **Meter*,***
-**Bars & Beats**, and **Tempo**.
+anywhere in the Timeline and check the following options: **Meter**, **Bars & Beats**, and **Tempo**.
 
-![](static/Ardour3_Meter_Timeline.png) \
+![Meter](/images/Ardour3_Meter_Timeline.png) 
 
 It is possible to set a **Meter** and **Tempo** for the entire Ardour
 session, as well as to change them at different points in the same
@@ -21,7 +28,7 @@ session. In order to do this, locate the Meter section of the **Timeline
 Bar** in the Editor Window, and right-click on the first small red mark
 to open the **Meter Dialog**.
 
-![](static/Ardour3_Edit_Meter_dialog.png) \
+![Meter dialog](/images/Ardour3_Edit_Meter_dialog.png) 
 
 Here you can enter new values for the **Beats Per Bar** as well as the
 **Note Value**. Click "*Apply*" to apply the changes globally to your
@@ -38,5 +45,7 @@ the new Tempo or Meter in the resulting dialog.
 Continuing
 ----------
 
-Next, we will explore **Using Ranges**to set up a loop we can listen to
+Next, we will explore **Using Ranges** to set up a loop we can listen to
 while we arrange the rhythm.
+
+Next: [USING RANGES](/using-ranges)

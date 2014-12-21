@@ -18,31 +18,18 @@ On Ubuntu, you can find and launch software using the Dash. Tap the
 and type Ardour. You can then click on the Ardour icon, or simply hit
 *Enter* when Ardour is the first search result:
 
-![Dash](/images/Ardour3_Ubuntu_Dash_1.png)
+![Dash](/images/Ardour3_Ubuntu_Dash.png)
 
 Click on **Ardour Digital Audio Workstation 3** and the program will
 start.
 
-![Image of Ardour](/images/Ardour3_Add_As_New_Track.png)
-
-Wow.
-
-Wow.
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
-Alternatively, you can run Ardour from the commandline by entering
-
-    ardour3 &
-
-in a terminal.
-
-Once you have started Ardour, the **Session Control**window shows up.
+Once you have started Ardour, the **Session Control** window shows up.
 You can click on **New Session** to create a brand new session, or you
 can open an existing session using the **Recent Sessions** and **Other
 Sessions** options. For now let's create a fresh session, so click on
 **New Session**. The window should now look like the screenshot below.
-Name your new project and click on **Open** .
 
-![](/images/Ardour3_New_Session_Simple_1.png) \
+Name your new project and click **Open** .
+
+![New Session](/images/Ardour3_New_Session_Simple.png)
 

@@ -1,11 +1,19 @@
-Ardour: SetupTimeline
-
-Setting Up the Timeline
-=======================
+---
+layout: post
+title: "Setting Up the Timeline"
+description:
+modified: 
+tags: [02 GETTING STARTED]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
 Because different users will want to use Ardour for different tasks, the
-way time is measured in the application can be changed. Users creating
-audio plays, documentaries, reportages or soundscapes may wish to use
+way time is measured in the application can be changed.
+
+Users creating audio plays, documentaries, reportages or soundscapes may wish to use
 **Minutes** and **Seconds**, for example, while those recording bands or
 producing electronic music will most likely use **Bars** and **Beats**.
 Video producers will find a frames-per-second **Timecode** handy, while
@@ -21,7 +29,7 @@ display the time in a number of formats: *Timecode*, *Bars:Beats*,
 *Minutes:Seconds* and *Samples*. Right-click to change the format of
 each of the two clocks.
 
-![](static/Ardour3_Clock_Units.png)
+![Clock Units](/images/Ardour3_Clock_Units.png)
 
 These are called the transport clocks. The left one is the primary
 transport clock and the right one is the secondary transport clock. The
@@ -31,9 +39,8 @@ settings.
 
 To the right of these two clocks you also see a set of 5 clocks that
 show the current selection range and punch ranges. Please refer to the
-[Ardour
-Manual](http://manual.ardour.org/ardours-interface/using-ardour-clock-displays/)
-for detailed information on clock displays. \
+[Ardour Manual](http://manual.ardour.org/ardours-interface/using-ardour-clock-displays/)
+for detailed information on clock displays. 
 
 Snap Modes
 ----------
@@ -43,22 +50,16 @@ They control the amount **Quantization** of the time grid, i.e., the
 amount of "snap" an audio **Region** has to the type of grid you have
 chosen.
 
-![Picture\_1.png](static/Ardour-WorkingWithRegions-Picture_1-en.png)
+![Snap](/images/Ardour3_Snap_Options.png)
 
 When *No Grid* is selected, Regions may be moved freely around within
 the Tracks. When *Grid* is selected, Regions will "snap" to the nearest
 **Grid Point**. When *Magnetic* is selected, Regions can be moved freely
 but will "snap" to a Grid Point when they are moved very close to one.
 
-![looping\_grid](static/Ardour-CreatingLoopedSections-looping_grid-en.png "looping_grid")
-
 The middle **Units** menu is used to select what the Grid Points will
 be, such as Beats, Bars, Marks, Minutes, Seconds, various aspects of the
 SMPTE Timecode, or the edges of Regions. 
-
-![timeline\_04](static/Ardour-SetupTimeline-timeline_04-en.png "timeline_04")
-
- 
 
 Timeline
 --------
@@ -67,10 +68,7 @@ The **Timeline** is located below the Snap Mode menus, just above the
 Main Canvas. By Right-Clicking on it, you can set the check boxes to
 display the different types of time information.
 
-![timeline\_03](static/Ardour-SetupTimeline-resized_600x160_timeline_03-en.png "timeline_03")
-
-\
--
+![Timeline](/images/Ardour3_Overview_Rulers.png)
 
 ### Minutes/Seconds
 
@@ -88,16 +86,16 @@ or 32.
 It is possible to set a **Meter** and **Tempo** for the entire Ardour
 session, as well as to change them at different points in the same
 session. For more information on this, please see the **Setting Up the
-Meter** chapter. \
+Meter** chapter. 
 
 ### Timecode
 
 To work with SMPTE video Timecode, first you need to set the **Timecode
 fps** (Frames per Second). This can be found in the Timecode tab of the
-Session Properties window (menu *Session \> Properties* or shortcut
+Session Properties window (menu *Session > Properties* or shortcut
 *"Alt"* + *"O"*)*.*
 
-![](static/Ardour3_Timecode.png) \
+![Timecode](/images/Ardour3_Timecode.png) 
 
 Once you have done that, make sure you make the Timecode ruler visible
 by right-clicking in the Timeline and checking the *Timecode* box. You
@@ -108,5 +106,6 @@ Continuing
 ----------
 
 Now that you've set up the Timeline, continue on to the chapter on
-**Creating a Track** to add one or more **Tracks** to your Session. \
+creating tracks and busses to add one or more **Tracks** to your Session. 
 
+Next: [CREATING A TRACK OR BUS](/creating-a-track-or-bus)
