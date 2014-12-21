@@ -3,7 +3,7 @@ layout: post
 title: About This Tutorial
 description: "The Introduction"
 modified: 
-tags: [about]
+tags: [01_INTRODUCTION]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz

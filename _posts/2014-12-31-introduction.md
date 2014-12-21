@@ -3,7 +3,7 @@ layout: post
 title: What is Ardour?
 description: "The Introduction"
 modified: 
-tags: [intro]
+tags: [01_INTRODUCTION]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
