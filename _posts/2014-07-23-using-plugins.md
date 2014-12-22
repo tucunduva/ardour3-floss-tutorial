@@ -1,16 +1,24 @@
-Ardour: UsingPlugIns
-
-Using Plugins
-=============
+---
+layout: post
+title: "Using Plugins"
+description:
+modified: 
+tags: [04 MIXING SESSIONS]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
 **Plugins** can be used to enhance or transform the sound of individual
-Tracks via a Track Plugin, or groups of Tracks via a **Send**. Later in
-this FLOSS Manual, we will discuss some Plugins specific to the Mixing
+Tracks.
+
+They can be applied directly to a single track, or to a group of Tracks using a **Send**. Later in
+this tutorial, we will discuss some Plugins specific to the Mixing
 process, such as **Compressors**, **Limiters**, **Parametric
 Equalizers**, **Reverbs** and others.
 
-Processor Box \
----------------
+## Processor Box 
 
 In Ardour terminology, a **Processor** is anything which gets plugged
 into a Mixer Strip, and treats the signal in some way. Ardour provides
@@ -19,8 +27,8 @@ also be plugins used for effects or as instruments, as well as sends or
 inserts which affect signal routing. The arrangement of processors is
 arbitrary, and there is no limit to how many there can be.
 
-![](static/Ardour3_Mixer_Strip_2.png) \
- \
+![mixer strip 2](../images/Ardour3_Mixer_Strip_2.png) 
+ 
 The main space shown in the screenshot above is the **Processor Box**.
 The blue box Fader is in fact a **Processor** that comes by default
 inside the Processor Box. It represents the Fader that you use to
@@ -28,63 +36,59 @@ control the Track's volume. All Processors are shown as coloured
 rectangles, with a small "LED" beside them that lights up when the
 processor is enabled. The colour of the processor depends on its
 location in the sequence; processors that are pre-fader are coloured in
-red, and post-fader processors are coloured green. \
+red, and post-fader processors are coloured green. 
 
-Adding a Plugin to a Track or a Bus \
--------------------------------------
+## Adding a Plugin to a Track or a Bus 
 
 Plugins can be added by right-clicking in the Processor Box of the Track
 or Bus. A menu of options is presented. From the menu, new processors
-can be inserted. \
+can be inserted. 
 
-![](static/Ardour3_Plugins_1.png) \
+![plugins1](../images/Ardour3_Plugins_1.png) 
 
 The Plugin Manager is a convenient way to browse and choose plugins:
 
-![](static/Ardour3_Plugins_2.png)
+![plugins2](../images/Ardour3_Plugins_2.png)
 
 From the Plugin Manager, you can search them by Name, Type, or other
 search parameters available from the drop-down menu. For example, we
 will add the reverb plugin called "Freeverb":
 
-![](static/Ardour3_Plugins_4.png)
+![plugins3](../images/Ardour3_Plugins_4.png)
 
 Once selected, click "*Add*" and the plugin will show up in the bottom
 list of "Plugins to be connected". Then click "*Insert Plugin(s)*" and
 they will show up in the Processor Box.
 
-![](static/Ardour3_Plugins_Freeverb.png)
+![plugins reverb](../images/Ardour3_Plugins_Freeverb.png)
 
-Editing Plugin Parameters
--------------------------
+## Editing Plugin Parameters
 
 Double-click a Plugin to edit its parameters. In this example, we double
 click the "Freeverb" green box and get this window:
 
-![](static/Ardour3_Plugin_Freeverb_Settings.png) 
+![freeverb settings](../images/Ardour3_Plugin_Freeverb_Settings.png) 
 
 Here you can control reverb parameters such as Room Size, Damping,
 amount of Wet and Dry signal, and Width. The effect will apply to all
-sounds contained in the Track. \
+sounds contained in the Track. 
 
-Bypassing Plugins
------------------
+## Bypassing Plugins
 
 To bypass the Plugin, press the *Bypass* button in the Plugin settings
 window, or simply click the "LED" of the plugin in the Processor Box.
 This turns the Plugin off and allows the signal to pass by it
 unaffected. This is useful when you want to compare how a track sounds
-with and without the plugin. \
+with and without the plugin. 
 
-![](static/Ardour3_Plugins_Bypass.png) \
+![bypass](../images/Ardour3_Plugins_Bypass.png) 
 
-Bypassed Plugins are shown greyed out and with the "LED" turned off. \
+Bypassed Plugins are shown greyed out and with the "LED" turned off. 
 
 Right-Clicking the Plugins will give a menu with several options,
-including *Delete*. \
+including *Delete*. 
 
-Pre-Fader vs Post-Fader
------------------------
+## Pre-Fader vs Post-Fader
 
 You have a choice whether you would like to add your Plugin before or
 after the Fader rectangle in the **Processor Box**. Pre-Fader Plugins
@@ -95,42 +99,33 @@ the signal going into the Plugin. For some Plugins, Pre- or Post-fader
 placement does not matter. For others, the difference is subtle. For
 others still, inserting them in the right place is absolutely essential.
 
-Plugin Formats
---------------
+## Plugin Formats
 
-### LADSPA (Linux Audio Developers Simple Plugin API)
+For those interested in learning more about plugin formats, here's a quick overview:
 
 **LADSPA Plugins** are the "native" Plugin format for Ardour.  They were
 initially developed for Linux, but since have been ported to OS X as
 well.
 
-### LV2
-
 **LV2** is a simple but extensible successor of LADSPA, which can be
 used to display sound characteristics in a graphical manner. LV2 Plugins
 can be used on OS X and Linux.
-
-### AU (Audio Unit)
 
 **AU Plugins** are the "native" Plugin format for OS X. They will only
 work in Ardour if you have made a donation when you downloaded the
 program. See the **Installing OS X** chapter for details. AU Plugins
 will not work on Linux at all.
 
-### VST (Virtual Studio Technology)
-
-**VST Plugins** are a Plugin format common to Microsoft Windows. Some
+**VST Plugins** is a Plugin format common to Microsoft Windows. Some
 VST Plugins can be used on Linux, however they may not function
 correctly, or even cause Ardour to crash. Using these Plugins requires
 manually **Compiling** the Ardour application, a task which is outside
 the scope of this manual.
 
-More information about using LADSPA, LV2 and VST plugins with Ardour,
-you can find here:
+More information about using plugins with Ardour can be found here:
 [http://manual.ardour.org/working-with-plugins/](http://manual.ardour.org/working-with-plugins/)
 
-Continuing
-----------
+## Continuing
 
 In this chapter, we learned how to add a Plugin to a single Track. This
 is useful if that Track needs a specific Plugin, but if you have a
@@ -138,3 +133,5 @@ Plugin which is used for many Tracks at the same time, you should
 continue to the next chapter about **Using Sends**. You can also
 continue to the various, Plugin-specific chapters such as **Dynamics**
 and **Equalizing**.
+
+Next: [USING SENDS](../using-sends)

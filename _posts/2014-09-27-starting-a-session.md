@@ -17,11 +17,17 @@ data is saved in a single Session folder.
 
 When you start Ardour, you are asked if you want to start a new Session
 or open an existing one. When creating a new Session you must choose a
-name for it. You also need to tell Ardour where you would like the
-Session folder to be stored. When you are ready, click '*Open*'. Ardour
+name for it.
+
+> TIP: Avoid using any characters other than letters and numbers when naming your session. Avoid white spaces, accented letters, !@#$%*()+, periods, commas, etc. Use dashes or underscores if you like. For example, instead of "My Great Session!", prefer "My_Great_Session", or "MyGreatSession", or "my-great-session". Instead of "Açaí", write "Acai" (without accented letters), etc. Once you have created your Ardour session, do **not** manually rename any folders or files that belong to the Session.
+
+You also need to tell Ardour where you would like the
+Session folder to be stored.
+
+When you are ready, click '*Open*'. Ardour
 will create the new Session and then open it.
 
-![New Session](../images/Ardour3_New_Session_Simple.png) 
+![New Session](../images/Ardour3_New_Session_Simple.png)
 
 Advanced Options
 ----------------
@@ -48,6 +54,8 @@ is currently running at 48 kHz.
 
 To create an Ardour session after Ardour has already started, select
 **Session** > **New** in the menu.
+
+TIP:
 
 Continuing
 ----------

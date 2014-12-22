@@ -1,10 +1,18 @@
-Ardour: CreatingLoopedSections
+---
+layout: post
+title: "Creating Looped Sections"
+description:
+modified: 
+tags: [03 EDITING SESSIONS]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
-Creating Looped Sections
-========================
+You can easily repeat sections of audio in your Ardour session.
 
-You can easily repeat sections of audio in your Ardour session. Here, we
-take the short rhythmic passage we created in **Working with Regions**
+Here, we take the short rhythmic passage we created in **Working with Regions**
 and duplicate it to make a loop.
 
 Before duplicating the passage, it is a good idea to combine individual
@@ -21,30 +29,28 @@ removing, or moving individual regions), it may be better to use the
 don't want or don't care to have the ability to separate them later, use
 **Consolidate Range** option.
 
-Combine Regions \
------------------
+## Combine Regions
 
 Simply select all the regions you want to combine:
 
-![](static/Ardour3_Combine_Regions_1.png) \
+![combine](../images/Ardour3_Combine_Regions_1.png)
 
-Then go to menu *Region \> Edit \> Combine* (or right-click on the
+Then go to menu *Region > Edit > Combine* (or right-click on the
 selected regions and find the same option through the context menu, as
 shown below):
 
-![](static/Ardour3_Combine_Regions_2.png) \
+![combine2](../images/Ardour3_Combine_Regions_2.png) 
 
 The combined regions will look like this (note the word "compound"
 appended to the name):
 
-![](static/Ardour3_Combine_Regions_4.png) \
+![combine4](../images/Ardour3_Combine_Regions_4.png) 
 
 Should you need to separate them again in the future, simply select the
 compound region and go to the same menu and choose the option
-"*uncombine*". \
+"*Uncombine*". 
 
-Consolidating the Range
------------------------
+## Consolidating the Range
 
 A more permanent alternative to **Combine** is to use **Consolidate**.
 When you've arranged your Regions into a single "loop cycle" and you're
@@ -62,7 +68,7 @@ the entire loop selected, Right-Click on the range and select
 effects you have added to the loop to be included, select "*Consolidate
 range with processing*".
 
-![](static/Ardour3_Consolidate_Range.png) \
+![consolidate](../images/Ardour3_Consolidate_Range.png) 
 
 When the range is **Consolidated**, new Regions will appear in each
 Track, each containing all the repetitions of the samples which you set
@@ -72,12 +78,9 @@ you need to alter the rhythm in any way, you can always retrieve the
 original individual samples from the Region List and rebuild the pattern
 with them.
 
-![](static/Ardour3_Consolidate_Range_2.png) \
+![consolidate2](../images/Ardour3_Consolidate_Range_2.png)
 
-\
-
-Duplicating the Range
----------------------
+## Duplicating the Range
 
 After you have merged individual regions that form your pattern (using
 either **Combine** or **Consolidate**), it's time to duplicate the
@@ -89,22 +92,23 @@ chapter) is a good way to accomplish this. Go back to Object mode
 how many times you want to duplicate the pattern (for example, 16).
 After duplication our session looks something like this:
 
-![](static/Ardour3_Multi-Duplicate.png) \
+![multi-dup](../images/Ardour3_Multi-Duplicate.png) 
 
 Just for review, other options you could have used for duplication are:
 
--   The **Fill Track** command from menu *Region \> Duplicate \> Fill
+-   The **Fill Track** command from menu *Region > Duplicate > Fill
     Track*. This would fill the entire track with copies of the selected
-    regions, all the way up to the **End Marker**. \
+    regions, all the way up to the **End Marker**. 
 
 -   The single **Duplicate** command from the same menu (shortcut
-    "*Alt*" + "*D*"). This lets you make a single copy at a time. \
--   The single duplicate action with "*Control*" + *Click on the region*
-    + *Drag a copy*.
+    "*Alt*" + "*D*"). This lets you make a single copy at a time. 
 
-Continuing
-----------
+-   The single duplicate action with "*Control*" + *Click on the region* + *Drag a copy*.
+
+## Continuing
 
 In the next tutorial we will learn about **Stretching/Shrinking
 Regions** that are longer or shorter than one Bar in order to fit the
 rhythm of our passage.
+
+Next: [STRETCHING/SHRINKING REGIONS](../stretching-shrinking-regions)

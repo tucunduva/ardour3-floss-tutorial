@@ -10,7 +10,7 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-Here you will learn a few more things you can do with Regions.
+In this section you will learn a few more things you can do with Regions.
 
 Right-clicking a selected Region reveals a context menu. The first item
 in the menu (labeled with the Region's name) contains a large sub-menu.

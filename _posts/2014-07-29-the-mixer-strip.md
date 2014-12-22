@@ -1,20 +1,26 @@
-Ardour: UsingMixerStripII
-
-Using the Mixer Strip
-=====================
-
-Mixing \
---------
+---
+layout: post
+title: "The Mixer Strip"
+description:
+modified: 
+tags: [04 MIXING SESSIONS]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
 **Mixing** is the process of converting multiple Tracks into a **Stereo
-Mix** where all the instruments can be heard clearly. **Levels**,
-**Panning**, **Equalization** (**EQ**), and **Compression** are the main
+Mix** where all the instruments can be heard clearly.
+
+## Mixing Tools
+
+**Levels**, **Panning**, **Equalization** (**EQ**), and **Compression** are the main
 tools used to achieve a good Mix. In addition to these core tools, a
 wide range of Plugin effects can also be used to enhance to sound, such
-as **Reverb** and **Delay**.  \
+as **Reverb** and **Delay**.  
 
-Introducing the Mixer Strip \
------------------------------
+## Introducing the Mixer Strip
 
 The **Mixer Strip** is the vertical column that contains various
 controls related to signal flow. Each Track and Bus in Ardour has its
@@ -24,11 +30,10 @@ overview of the Mixer Strip, with each section described. We will also
 provide references to chapters containing information specific to each
 aspect of the Mixer Strip.
 
-The Mixer Strip from Top to Bottom
-----------------------------------
+## The Mixer Strip from Top to Bottom
 
 Mixer Strips can be accessed from both the **Editor Window** and the
-**Mixer** **Window** (shortcut "*Alt*" + "*M*"). Mixer Strips in either
+**Mixer Window** (shortcut "*Alt*" + "*M*" to toggle between the two). Mixer Strips in either
 window (Editor or Mixer) mirror each other: any actions performed on a
 Mixer Strip in the Mixer Window will be reflected in the corresponding
 Mixer Strip in the Editor Window, and vice-versa. The Editor Window and
@@ -42,31 +47,32 @@ selected track on the left side of the window. If you don't see it, hit
 ### Overview
 
 Here we see the entire Mixer Strip, as it would appear in either the
-Editor Window or the Mixer Window. \
+Editor Window or the Mixer Window. 
 
-  ![](static/Ardour3_Mixer_Strip_1.png) \
+![strip1](../images/Ardour3_Mixer_Strip_1.png) 
 
 ### Regular & Narrow Modes
 
 The Mixer Strip can be switched between  the regular width and a more
 narrow width to conserve space. The very top part of the Mixer Strip,
 pictured below, switches between regular and narrow modes using the left
-button. The right button hides the Mixer Strip entirely. \
+button. The right button hides the Mixer Strip entirely. 
 
-![01\_strip](static/Ardour-MixerStrip-01_strip-en.png "01_strip") 
+![strip top](../images/Ardour3_Mixer_Strip_Top.png) 
 
-### Track Name/Routing/Record/Pre-Fader Plugins&Sends
+### Track Name and Routing Button
 
 Continuing from top to bottom, the next section of the Mixer Strip
-contains three narrow regions. The first of these regions, named
-"*clap*" in this image below, lists the name of the Track which the
-Mixer Strip controls. The next region, named "*2*" in the image below,
+contains three narrow regions. The first of these regions shows the name of the Track (that's the word
+"*clap*" in the image below). The next region, named "*2*" in the image below,
 is a button which allows access to the input Routing. Please see the
 **Understanding Routing** and **Recording Audio** chapters for more
 information on input Routing. The last narrow region controls phase
-reversing (we won't go into details on this topic here). \
+reversing (we won't go into details on this topic in this tutorial). 
 
-### ![](static/Ardour3_Mixer_Strip_2.png) \
+![strip 2](../images/Ardour3_Mixer_Strip_2.png) 
+
+### Processor Box 
 
 The large black region at the bottom of this section is the **Processor
 Box**. This is where you can add Plugins, for example. The processor box
@@ -76,29 +82,28 @@ shown in the lower half of the strip. Please see **Using Plugins** and
 **Using Sends** for a detailed discussion of this area.
 
 The next portion of the Mixer Strip includes controls for Panning,
-Record, Mute, and Solo, among others. Below we provide an overview of
-the most common controls. \
+Record, Mute, and Solo, among others.
 
-![](static/Ardour3_Mixer_Strip_4.png) \
+![strip 4](../images/Ardour3_Mixer_Strip_4.png) 
 
 ### Panning
 
-Panning has to with placement of sounds anywhere between Left and Right
+Panning has to do with placement of sounds anywhere between Left and Right
 speakers. Please refer to the **Panning** chapter for more information.
 
-### Solo \
+### Solo 
 
 When a Track or Bus is on **Solo**, all the other Tracks or Busses which
 are not likewise on Solo will be inaudible through the Master Bus or the
 Audition. We can also find a miniaturized Solo Button in the Track
 Mixer. Note that soloing a bus will not silence any tracks and
-vice-versa. \
+vice-versa. 
 
 When any Track or Bus is on Solo, the **Solo Indicator** in the
 Auxiliary Controls menu will flash red. Clicking the Solo Indicator
 while it is flashing will deactivate every Solo in the Session.
 
-![](static/Ardour3_Mixer_Strip_5.png) 
+![strip 5](../images/Ardour3_Mixer_Strip_5.png) 
 
 ### Mute
 
@@ -111,13 +116,10 @@ button.
 ### Arm Record
 
 The Rec button arms the track for recording, as seen in the **Recording
-Audio** chapter. \
+Audio** chapter. 
 
- 
 
- 
-
-### Fade/Peak Meters
+### Fader, Fade/Peak Meters
 
 The most prominent control present in a Mixer Strip is the **Fader**,
 used to adjust the overall gain for the corresponding Track or Bus. The
@@ -127,7 +129,7 @@ one **Bar Graph** in the case of a Mono Track, and two Bar Graphs in
 case of a Stereo track. The small rectangular field above the meters
 shows the highest Peak Value that has been played on that track so far.
 
-![](static/Ardour3_Mixer_Strip_7.png) \
+![strip 7](../images/Ardour3_Mixer_Strip_7.png) 
 
 By clicking the right-hand button at the bottom of the Mixer Strip (it
 reads "*post*" in the image above), you will be able to select the
@@ -140,7 +142,7 @@ horizontal **Fader**, a vertical **Peak Meter** as well as miniature
 buttons for **Arm Record**, **Mute**, and **Solo**. They all mirror
 those found in the Mixer Strip for that Track.
 
-![](static/Ardour3_Mixer_Strip_6.png) 
+![strip 6](../images/Ardour3_Mixer_Strip_6.png) 
 
 Please refer to the chapter on **Mixing Levels** for more detailed
 instruction about using the Fader and Peak Meters.
@@ -151,10 +153,10 @@ Finally, we reach the bottom of the Mixer Strip. Here we find the
 **Output Routing Button**, marked as "*master*" in the earlier
 screenshot, which is discussed in the **Understanding Routing** chapter.
 
-Continuing
-----------
+## Continuing
 
 Now that we've had a look at the main areas of the Mixer Strip, we can
 proceed to the **Mixing Levels** chapter to see how we can start to use
-it. \
+it. 
 
+Next: [MIXING LEVELS](../mixing-levels)
