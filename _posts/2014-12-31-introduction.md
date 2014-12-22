@@ -6,9 +6,9 @@ comments: false
 tags: [01 INTRODUCTION]
 comments: false
 image:
-  feature: abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: Ardour3_Empty_Session_Transparent.png
+  credit:  
+  creditlink:  
 ---
 
 **Ardour** is a full-featured, free and open-source hard disk recorder

@@ -5,9 +5,9 @@ description:
 comments: false 
 tags: [05 EXPORTING SESSIONS]
 image:
-  feature: abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: Ardour3_Empty_Session_Transparent.png
+  credit:  
+  creditlink:  
 ---
 
 Learn how to export a selected portion (Range) of your Session.

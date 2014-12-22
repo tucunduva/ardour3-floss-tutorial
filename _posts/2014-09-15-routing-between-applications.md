@@ -5,9 +5,9 @@ description:
 comments: false 
 tags: [02 GETTING STARTED]
 image:
-  feature: abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: Ardour3_Empty_Session_Transparent.png
+  credit:  
+  creditlink:  
 ---
 
 Sometimes you may need to record the audio output of another program into Ardour (for example, the sound of a 

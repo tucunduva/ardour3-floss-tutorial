@@ -5,16 +5,19 @@ description: "The Introduction"
 comments: false 
 tags: [01 INTRODUCTION]
 image:
-  feature: abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: Ardour3_Empty_Session_Transparent.png
+  credit:  
+  creditlink:  
 ---
 
-This tutorial provides a beginner's introduction to installing,
-configuring and using Ardour for basic sound recording and editing
-tasks.
+This tutorial provides a beginner's introduction using Ardour for basic sound recording and editing
+tasks. It assumes you have already have Ardour up and running on your computer.
 
-This page includes **Credits** and **Conventions Used in This Text**.
+For information on how to install Ardour on Linux and Mac OS X, please visit [https://ardour.org/requirements.html](https://ardour.org/requirements.html). If using Linux, distributions such as [KXStudio](http://kxstudio.sourceforge.net/) and [UbuntuStudio](http://ubuntustudio.org/) offer a wide selection of useful music software, including Ardour.
+
+The remainder of this page includes **Credits** and **Conventions Used in This Text**.
+
+
 
 ## Credits
 

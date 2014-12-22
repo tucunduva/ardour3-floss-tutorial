@@ -1,17 +1,19 @@
 ---
 layout: post
-title: "Starting Ardour on Ubuntu"
+title: "Starting Ardour"
 description:
 comments: false 
 tags: [02 GETTING STARTED]
 image:
-  feature: abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: Ardour3_Empty_Session_Transparent.png
+  credit:  
+  creditlink:  
 ---
 
 Now that JACK and Ardour are installed, and JACK has been successfully
 started, you can start up Ardour.
+
+Click on the Ardour icon to start the program.
 
 On Ubuntu, you can find and launch software using the Dash. Tap the
 *"Super"* key (or *"Super" + "A"* to go directly to the Dash App Lens)
