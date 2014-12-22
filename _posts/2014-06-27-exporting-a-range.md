@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exporting Ranges"
+title: "Exporting a Range"
 description:
 modified: 
 tags: [05 EXPORTING SESSIONS]
@@ -10,57 +10,53 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
+Learn how to export a selected portion (Range) of your Session.
+
 **Exporting** is the process of saving a Region, Track or Session to a
-file on your computer. As we learned previously, Exporting a Region does
-not Export all of the changes you might have made to that Region. To
-Export edits such as **Normalizing**, **Fading** and **Panning**, and
-**Automation**, you must Export either a Range or the entire Session.
+file on your computer. As we learned previously, exporting an isolated Region does
+not export all of the changes you might have made to that Region. To
+export edits such as **Panning**, **Fader Automation**, and **Plugin effects**,
+you must Export either a Range or the entire Session.
 
-To Export a range, select the **Select/Move Ranges**tool, then
-Right-Click **Export** **range** or use the top menu: *Session > Export
-\> Export selected ranges to audiofile*.
+## Exporting a Range
 
-![exportrange1.png](../images/Ardour-Export-exportrange1-en.png)
+To export a range, follow these steps:
 
-Since the Export is handled through the Master Bus, every Track within
-the Range you select is Exported together, exactly as they play back in
-your Session. Unlike the Export Region command, this kind of Export
-includes any Normalizing, Fading and Panning, and Automation you have
-created, along with the individual edits made to the Regions as well. If
-any of the Tracks have the Mute or Solo buttons engaged, this will also
-affect which Tracks are heard in the Exported file.
+* CLick on the **Select/Move Ranges** tool (shortcut "*R*")
 
-![exportrange5.png](../images/Ardour-Export-exportrange5-en.png)
+![export range 0](../images/Ardour3_EditModes_R.png)
 
-![exportrange2.png](../images/Ardour-Export-exportrange2-en.png)
+* Make a Range selection:
 
-This opens a dialogue box with several options. Generally, you will want
-to export a Stereo mix as an **AIFF** or **WAV** file, at either
-**16-bit** or **24-bit**. 16-bit files can be burnt directly to an audio
-CD, but if you intend the audio to be further processed, it is best to
-export at 24-bit. Having chosen your options, enter the track name at
-the top and select *Export*.
+![export range 1](../images/Ardour3_Export_Range1.png)
 
-Define the output channels by selecting them: left and right are normal
-stereo outputs.
+* Right click on the Range and choose "*Export Range*" from the menu:
 
-![exportrange3.png](../images/Ardour-Export-exportrange3-en.png)
+![export range 2](../images/Ardour3_Export_Range2.png)
 
-To export only specific Tracks, de-select the master outs, and click the
-”Specific tracks” button and select the channel(s) of the Track(s) you
-wish to Export.
+This will open the familiar Export dialog explained in the [Exporting a Session](../exporting-a-session) chapter. Choose your options, if any, and click Export. The Range will be exported and saved as an audio file.
 
-![exportrange4\_1](../images/Ardour-Export-exportrange4_1-en.png "exportrange4_1")
+### What exactly is a Range?
+To define a Range is simply to specify a beginning and ending point in time. The **Selection** display to the right of the secondary clock shows the start and end times of the selected range, as well as its duration. The Range created through the method above will disappear as soon as you click outside of it.
 
-*Warning: overwriting existing files causes Ardour to become confused,
-resulting in empty files being Exported. Be sure to use a unique file
-name each time you Export!*
+The Export Range command will export everything that plays through the Master Bus, exactly as it plays back in
+your Session. If any of the Tracks have the Mute or Solo buttons engaged, this will also affect which Tracks are heard in the Exported file.
 
-![exportregion4\_1.png](../images/Ardour-Export-exportregion4_1-en_1.png)
+### What is a Range Marker? 
+Range Markers are essentially two location markers the are grouped together to mark the beginning and end of a section in the timeline. You can user Range Markers to "bookmark" (so to speak) one or more Ranges that you need to remember or use again later. Range Markers look like this on the timeline:
 
-Continuing 
-------------
+![range markers](../images/Ardour3_Export_Range_Markers.png)
 
-Once you are happy with your entire Session, you will probably want to
-to Export the whole thing as a Stereo Mix. Please go ahead to the next
-chapter to learn about **Exporting Sessions**.
+There are a few ways to create Range Markers:
+
+* From a Range selection, right click on it and choose "*Add Range Marker*".
+* From the timeline, right click on the "Range Markers" horizontal space and choose "*New Range*".
+* From one or more selected Regions, right click on the Region and choose "*Add Single Range Marker*" (if a single Region is selected), or "*Add Range Marker Per Region*" (if multiple Regions are selected).
+
+> TIP: You can clear all existing Range Markers by right-clicking on the Range Markers area of the timeline and choosing "*Clear All Ranges*".
+
+## Continuing 
+
+You now know how to Export isolated Regions, selected Ranges from your Session, or the entire Session as a Stereo Mix. The last section of this tutorial explains saving sessions, snapshots, and templates.
+
+Next: [SAVING A SESSION](../saving-a-session)

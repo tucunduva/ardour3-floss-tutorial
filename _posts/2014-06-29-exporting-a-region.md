@@ -20,12 +20,14 @@ To Export a Region, select it (so it becomes blue), and then right-click into th
 
 ![export region](../images/Ardour3_Export_Region_1.png)
 
-This will open up the same Export dialog box explained in the [Exporting ] in the previous chapter. Choose your options, and click "Export". Only the selected Region will be exported.
+This will open up the same Export dialog box explained in the [Exporting a Session](../exporting-a-session) chapter.
+Choose your options, and click "Export". Only the selected Region will be exported.
 
 Please note that when exporting a Region, not all parameters and edits
-are Exported. **Trimmed**, **split**, **stretched** and **reversed**
-regions can be Exported, but edits such as and **Panning**, and **Automation** are *not* Exported. Also, the volume of the audio Track itself or the Master Bus will not affect the Exported
-file. To Export these edits, please see the chapters on **Exporting a Range** and **Exporting a Session**.
+are exported. **Trimmed**, **split**, **stretched** and **reversed**
+regions can be exported, but edits such as and **Panning**, and **Automation** are *not* exported.
+Also, the volume of the audio Track itself or the Master Bus will not affect the exported
+file. To export these edits, please see the chapters on **Exporting a Range** and **Exporting a Session**.
 
 ## Exporting Several Regions At Once
 
@@ -60,4 +62,4 @@ You Regions have now been exported to single audio files.
 Finally, the next chapter will show discuss **Exporting Ranges** rather
 than just an individual Region. The last trick (exporting multiple Regions at once) in fact already involved using Ranges, as you may have guessed.
 
-Next: [EXPORTING RANGES](../exporting-ranges)
+Next: [EXPORTING A RANGE](../exporting-a-range)

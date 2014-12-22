@@ -163,6 +163,8 @@ record) and type in the new name.
 
 ![Rename Track](../images/Ardour3_Rename_Track.png) 
 
+> TIP: Did we mention how important it is to **save your work often?** Hit "Control" + "S" right now. Get in the habit of hitting "Control" + "S" every few minutes.
+
 Continuing
 ----------
 

@@ -1,26 +1,31 @@
-Further Help
-============
+---
+layout: post
+title: "Further Help"
+description:
+modified: 
+tags: [07 APPENDICES]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
 
-Besides the URLS listed in the Links chapter, there are a couple of
+Besides the URLs listed in the Links chapter, there are a couple of
 resources on the Internet to help you learn Ardour and fix some of the
 problems that you might have along the way.
 
-Ardour Shortcut Cheatsheets
----------------------------
+## Ardour Manual
 
-To make working with Ardour faster and easier, there are Ardour Shortcut
-Cheatsheets available for OSX and Linux
-([http://ardour.org/node/2894](http://ardour.org/node/2894)). These are
-likely to change between versions, so it is always a good idea to get
-the latest versions from this website.
+The official Ardour Manual is the main reference to Ardour. It is a work in progress, meaning you will not find every single feature explained there (yet). But it is already an amazing resource:
 
-Getting Help via Chat
----------------------
+[http://manual.ardour.org/](http://manual.ardour.org/)
 
-A good way to get support when learning Ardour and working with it, is
+## Getting Help via Chat
+
+A good way to get support when learning Ardour and working with it is
 using the **Chat** function. Ardour has a built in "Chat" option, found
-in the Main Menu under *Help \> Chat* to connect (via your web browser)
-to the Ardour[IRC](http://en.wikipedia.org/wiki/IRC) channel at
+in the Main Menu under *Help > Chat* to connect (via your web browser)
+to the Ardour [IRC](http://en.wikipedia.org/wiki/IRC) channel at
 Freenode.
 
 You could also use your IRC capable chat application (like Pidgin or
@@ -28,7 +33,6 @@ Xchat) to connect to the Ardour channel (\#ardour or \#ardour-osx) at
 the Freenode network, or use this weblink directly:
 
 [http://webchat.freenode.net/?channels=ardour](http://webchat.freenode.net/?channels=ardour)
-.
 
 Enter a nickname and connect, you are welcome!
 
@@ -36,8 +40,7 @@ In such a IRC Chat channel or room, you find the Ardour developers and
 other users to chat about using Ardour, problems and/or bugs you are
 facing, or about suggestions for Ardour which you want to discuss.
 
-Getting Help via Mailing Lists
-------------------------------
+## Getting Help via Mailing Lists
 
 For those that prefer mailing lists to IRC chatting, the Ardour Users
 mailing list is also a good place where users and some developers
@@ -49,14 +52,14 @@ selection, etc.
 
 [http://lists.ardour.org/listinfo.cgi/ardour-users-ardour.org](http://lists.ardour.org/listinfo.cgi/ardour-users-ardour.org%20)
 
-Getting Help via the Online Forum
----------------------------------
+## Ardour Website
 
-If you would rather not sign up for an email list, you can also browse
-or post questions to the online forum at Ardour.org. Many common
-questions about setting up and using Ardour have been answered there
-already. Posting to this forum requires registering with the Ardour.org
-website.
+[http://ardour.org](http://ardour.org)
 
-[http://ardour.org/forums](http://ardour.org/forums) \
+[http://community.ardour.org/community](http://community.ardour.org/community)
 
+**Appendices:**
+[FURTHER HELP](../further-help)   ||
+[GLOSSARY](../glossary)   ||
+[LINKS](../links)   ||
+[CREDITS](../credits)

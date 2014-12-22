@@ -144,6 +144,8 @@ the *X* key, the *Delete* key or the key combination of *fn* and
 *Backspace* (which is used, for example, on a laptop keyboard that does
 not have a proper *Delete* key).
 
+> TIP: **Save your work often!** The shortcut "Control" + "S" is your friend. Use it a lot, all the time.
+
 Continuing
 ----------
 

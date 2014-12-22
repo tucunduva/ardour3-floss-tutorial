@@ -33,6 +33,8 @@ Name your new project and click **Open** .
 
 ![New Session](../images/Ardour3_New_Session_Simple.png)
 
+> TIP: Avoid using any characters other than letters and numbers when naming your session. Avoid white spaces, accented letters, !@#$%*()+, periods, commas, etc. Use dashes or underscores if you like. For example, instead of "My Great Session!", prefer "My_Great_Session", or "MyGreatSession", or "my-great-session". Instead of "Açaí", write "Acai" (without accented letters), etc. Once you have created your Ardour session, do **not** manually rename any folders or files that belong to the Session.
+
 ## Continuing
 
 Next: [An Overview of the Interface](../an-overview-of-the-interface)
