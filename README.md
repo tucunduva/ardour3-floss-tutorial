@@ -1,25 +1,23 @@
-# HPSTR Jekyll Theme BRUNO TEST
+# Ardour 3 Tutorial
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing [my first two themes](https://mademistakes.com/work/jekyll-themes/), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory.
 
-## What HPSTR brings to the table:
+This tutorial provides a beginner's introduction to installing,
+configuring and using Ardour for basic sound recording and editing
+tasks.
 
-* Modern and minimal design.
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Sweet animated menu with support for drop-downs.
-* Optional [Disqus](http://disqus.com) comments and social sharing links.
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page](http://mmistakes.github.io/hpstr-jekyll-theme/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) to make your code examples look snazzy
-* [Available in Spanish](https://github.com/cruznick/hpstr-jekyll-theme/tree/es). Thanks [@cruznick](https://github.com/cruznick)!
+The main body of the manual was written during a **Book Sprint**
+led by Derek Holzer in the moddr_lab
+([http://moddr.net](http://moddr.net "moddr_lab @ WORM, Rotterdam")) at
+WORM in Rotterdam, the Netherlands, between 23 and 27 November 2009,
+with input and support from the international community of Ardour users
+and developers. The tutorial was originally written for Ardour 2.X versions. The original FLOSS manual can be found at [http://en.flossmanuals.net/ardour/](http://en.flossmanuals.net/ardour/).
 
-![HPSTR Theme Preview screenshot](http://mmistakes.github.io/hpstr-jekyll-theme/images/hpstr-jekyll-theme-preview.jpg)
+The present update of the tutorial was written for Ardour 3.5. The text has been updated where necessary, and all screenshots were replaced with newer ones (matching Ardour 3.5.403). This revision was made by Bruno Ruviaro in December 2014.
 
----
+The Ardour community is invited to contribute content to this tutorial.
+All text and image files live in [https://github.com/brunoruviaro/ardour3-floss-tutorial](https://github.com/brunoruviaro/ardour3-floss-tutorial), which makes it easy for anyone to fork, revise, and remix this text.
 
-## Getting Started
-
-HPSTR takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
-
-To learn how to install and use this theme check out the [Setup Guide](https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/) for more information.
+This FLOSS manual complements the Ardour reference manual currently
+under development by the Ardour community, which aims to provide an
+encyclopedic listing of Ardour's features. That reference manual can be
+found at [http://manual.ardour.org/](http://manual.ardour.org/).
