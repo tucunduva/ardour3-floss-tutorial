@@ -3,7 +3,7 @@ layout: post
 title: What is Ardour?
 description: "The Introduction"
 modified: 
-tags: [01_INTRODUCTION]
+tags: [01 INTRODUCTION]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
@@ -24,3 +24,4 @@ with other audio applications running on the same system.
 More information on Ardour can be found at
 [http://ardour.org/](http://ardour.org/ "http://ardour.org/").
 
+Next: [ABOUT THIS TUTORIAL](../about-this-tutorial)
