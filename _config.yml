@@ -3,11 +3,11 @@ description:      An updated version of the original FLOSS manual.
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 120
-url:              http://brunoruviaro.github.io/ardour3-floss-tutorial/
+url:              http://brunoruviaro.github.io/ardour3-floss-tutorial
 
 #http://localhost:4000 
 
-#http://brunoruviaro.github.io/ardour3-floss-tutorial/
+#http://brunoruviaro.github.io/ardour3-floss-tutorial
 
 # Owner/author information
 owner:
