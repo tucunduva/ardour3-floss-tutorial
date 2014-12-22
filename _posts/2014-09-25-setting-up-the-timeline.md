@@ -2,7 +2,7 @@
 layout: post
 title: "Setting Up the Timeline"
 description:
-modified: 
+comments: false 
 tags: [02 GETTING STARTED]
 image:
   feature: abstract-3.jpg

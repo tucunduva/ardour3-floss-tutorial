@@ -2,7 +2,7 @@
 layout: post
 title: "Using Plugins"
 description:
-modified: 
+comments: false 
 tags: [04 MIXING SESSIONS]
 image:
   feature: abstract-3.jpg

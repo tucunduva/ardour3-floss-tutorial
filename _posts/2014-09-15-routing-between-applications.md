@@ -2,7 +2,7 @@
 layout: post
 title: "Routing Between Applications"
 description:
-modified: 
+comments: false 
 tags: [02 GETTING STARTED]
 image:
   feature: abstract-3.jpg

@@ -2,7 +2,7 @@
 layout: post
 title: About This Tutorial
 description: "The Introduction"
-modified: 
+comments: false 
 tags: [01 INTRODUCTION]
 image:
   feature: abstract-3.jpg
@@ -13,6 +13,10 @@ image:
 This tutorial provides a beginner's introduction to installing,
 configuring and using Ardour for basic sound recording and editing
 tasks.
+
+This page includes **Credits** and **Conventions Used in This Text**.
+
+## Credits
 
 The main body of the manual was written during a **Book Sprint**
 led by Derek Holzer in the moddr_lab
@@ -31,8 +35,9 @@ under development by the Ardour community, which aims to provide an
 encyclopedic listing of Ardour's features. That reference manual can be
 found at [http://manual.ardour.org/](http://manual.ardour.org/).
 
+For a full list of Credits and the License, click [HERE](../credits).
 
-## Conventions Used in This Manual
+## Conventions Used in This Text
 
 Below are some basic conventions we have adopted in this manual.
 
@@ -81,4 +86,5 @@ the first time they are used in a chapter. Glossary words are also
 defined in-line the first time they occur in the manual, and are
 included in the **Glossary** at the end of this manual.
 
-Next: [WHAT IS DIGITAL AUDIO?](../what-is-digital-audio)
+
+Next: Jump to [TABLE OF CONTENTS](../tags) or [WHAT IS DIGITAL AUDIO?](../what-is-digital-audio)

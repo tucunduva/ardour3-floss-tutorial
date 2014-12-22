@@ -2,7 +2,7 @@
 layout: post
 title: "Saving a Template"
 description:
-modified: 
+comments: false 
 tags: [06 SAVING SESSIONS]
 image:
   feature: abstract-3.jpg

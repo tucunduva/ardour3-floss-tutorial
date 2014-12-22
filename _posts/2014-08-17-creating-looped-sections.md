@@ -2,7 +2,7 @@
 layout: post
 title: "Creating Looped Sections"
 description:
-modified: 
+comments: false 
 tags: [03 EDITING SESSIONS]
 image:
   feature: abstract-3.jpg

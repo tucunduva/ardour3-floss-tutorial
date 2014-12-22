@@ -2,7 +2,7 @@
 layout: post
 title: "Exporting Regions"
 description:
-modified: 
+comments: false 
 tags: [05 EXPORTING SESSIONS]
 image:
   feature: abstract-3.jpg

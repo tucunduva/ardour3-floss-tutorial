@@ -2,7 +2,7 @@
 layout: post
 title: What Is Digital Audio?
 description:
-modified: 
+comments: false 
 tags: [01 INTRODUCTION]
 image:
   feature: abstract-3.jpg

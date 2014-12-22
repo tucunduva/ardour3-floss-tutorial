@@ -2,7 +2,7 @@
 layout: post
 title: "Further Help"
 description:
-modified: 
+comments: false 
 tags: [07 APPENDICES]
 image:
   feature: abstract-3.jpg
