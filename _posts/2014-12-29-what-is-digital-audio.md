@@ -3,27 +3,26 @@ layout: post
 title: What Is Digital Audio?
 description:
 modified: 
-tags: [01_INTRODUCTION]
+tags: [01 INTRODUCTION]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-Since we'll be using **Ardour** to record and edit sound, it might be
+**Ardour** is a Digital Audio Workstation (DAW). Beforing using it to record and edit sound, it might be
 useful to review how digital audio works.
 
-![Analogue\_Digital\_Conversion](static/PureData-WhatIsDigitalAudio-Analogue_Digital_Conversion-en.png "Analogue_Digital_Conversion")
+![analogue-digital](../images/Ardour3_Digital_Audio_1.png)
 
 *A diagram showing how sound travels through your computer. The
 "Analogue to Digital Conversion" and the "Digital to Analogue
 Conversion" are done by the sound card or audio interface. The "Digital
-System" in this case is**Ardour.* \
+System" in this case is **Ardour.* 
 *Source:
-[http://en.wikipedia.org/wiki/Image:Analogue\_Digital\_Conversion.png](http://en.wikipedia.org/wiki/Image:Analogue_Digital_Conversion.png)*
+[http://en.wikipedia.org/wiki/Image:Analogue_Digital_Conversion.png](http://en.wikipedia.org/wiki/Image:Analogue_Digital_Conversion.png)*
 
-Frequency and Gain
-------------------
+## Frequency and Gain
 
 Imagine a loudspeaker. To move the air in front of it and make sound,
 the membrane of the speaker must vibrate from its centre position (at
@@ -34,7 +33,7 @@ determines the **Amplitude**(the volume or loudness) of the sound.
 Normally, we measure Frequency in **Hertz**(Hz) and Amplitude in
 **Decibels**(dB).
 
-![speaker](static/PureData-WhatIsDigitalAudio-speaker-en.png "speaker")
+![speaker](../images/Ardour3_Digital_Audio_2.png)
 
 A microphone works like a loudspeaker in reverse—vibrations in the air
 cause its membrane to vibrate. The microphone turns these acoustic
@@ -47,15 +46,14 @@ possible values each Sample can have is called the **Bit Depth**. The
 combination of Sample Rate and Bit Depth indicates how closely the
 digital signal can reproduce the sound it has recorded.
 
-Peaks and Clipping
-------------------
+## Peaks and Clipping
 
 When Ardour displays the Samples which have been recorded, they appear
 as the **Waveform** we see below. The centre horizontal line indicates
 the membrane of the speaker at rest, and the **Peaks** of the Waveform
 indicate the maximum **Amplitude.**
 
-![digital\_audio\_01\_2](static/Ardour-WhatIsDigitalAudio-resized_600x225_digital_audio_01_2-en.png "digital_audio_01_2")
+![waveform](../images/Ardour3_Digital_Audio_Waveform.png)
 
 If we take the same Waveform and increase the Amplitude by 6 Decibels,
 then some of the Peaks will now be outside the range that the computer
@@ -65,7 +63,7 @@ a permanent loss of digital information, as well as a change in the
 sound quality which is recognizable as **Distortion**. Ardour marks
 clipped Peaks with the color red, as can be seen in the image below.
 
-![digital\_audio\_02\_3](static/Ardour-WhatIsDigitalAudio-resized_600x210_digital_audio_02_3-en.png "digital_audio_02_3")
+![clipping](../images/Ardour3_Digital_Audio_Clipping.png)
 
 In both images, one can also see the **Mixer Strip** on the far left,
 which gives a running measurement of the Peaks, as well as an indication
