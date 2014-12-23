@@ -11,9 +11,10 @@ image:
   creditlink:  
 ---
 
-**Ardour** is a full-featured, free and open-source hard disk recorder
-and digital audio workstation program suitable for professional use. It
-features unlimited audio tracks and buses, non-destructive, non-linear
+**Ardour** is a professional, full-featured hard disk recorder
+and Digital Audio Workstation (DAW). Ardour is a Free/Libre Open Source Software (FLOSS).
+
+It features unlimited audio tracks and buses, non-destructive, non-linear
 editing with unlimited undo, and anything-to-anywhere signal routing. It
 supports standard file formats, such as BWF, WAV, WAV64, AIFF and CAF,
 and it can use LADSPA, LV2, VST and AudioUnit plugin formats.
