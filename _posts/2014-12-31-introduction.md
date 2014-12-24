@@ -26,4 +26,4 @@ with other audio applications running on the same system.
 More information on Ardour can be found at
 [http://ardour.org/](http://ardour.org/ "http://ardour.org/").
 
-Next: [ABOUT THIS TUTORIAL]({{ site.url }}/about-this-tutorial)
+### Click [here]({{ site.url }}/tags) to go straight to [Table of Contents]({{ site.url }}/tags)
