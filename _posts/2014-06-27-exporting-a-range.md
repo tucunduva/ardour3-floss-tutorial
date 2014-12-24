@@ -24,15 +24,15 @@ To export a range, follow these steps:
 
 * CLick on the **Select/Move Ranges** tool (shortcut "*R*")
 
-![export range 0](../images/Ardour3_EditModes_R.png)
+![export range 0]({{ site.url }}/images/Ardour3_EditModes_R.png)
 
 * Make a Range selection:
 
-![export range 1](../images/Ardour3_Export_Range1.png)
+![export range 1]({{ site.url }}/images/Ardour3_Export_Range1.png)
 
 * Right click on the Range and choose "*Export Range*" from the menu:
 
-![export range 2](../images/Ardour3_Export_Range2.png)
+![export range 2]({{ site.url }}/images/Ardour3_Export_Range2.png)
 
 This will open the familiar Export dialog explained in the [Exporting a Session](../exporting-a-session) chapter. Choose your options, if any, and click Export. The Range will be exported and saved as an audio file.
 
@@ -45,7 +45,7 @@ your Session. If any of the Tracks have the Mute or Solo buttons engaged, this w
 ### What is a Range Marker? 
 Range Markers are essentially two location markers the are grouped together to mark the beginning and end of a section in the timeline. You can user Range Markers to "bookmark" (so to speak) one or more Ranges that you need to remember or use again later. Range Markers look like this on the timeline:
 
-![range markers](../images/Ardour3_Export_Range_Markers.png)
+![range markers]({{ site.url }}/images/Ardour3_Export_Range_Markers.png)
 
 There are a few ways to create Range Markers:
 

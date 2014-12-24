@@ -23,7 +23,7 @@ automated parameter is displayed underneath the parent track in its own
 **Automation Line**, made up of a number of **Automation Points**.
 Here's how a track with Automation looks like:
 
-![automation1](../images/Ardour3_Automation_Fader.png)
+![automation1]({{ site.url }}/images/Ardour3_Automation_Fader.png)
 
 In the image above, the Automation Track called "*Fader*" is associated
 to the parent Track called "*Audio 1*". The Automation Line controls
@@ -33,20 +33,20 @@ Fader (volume) changes over time.
 
 Let's create a simple Fader Automation. Click the "*a*" button of a chosen track. A menu will appear, where you can select the parameter you would like to Automate. Choose "*Fader*".
 
-![automation2](../images/Ardour3_Automation_Button.png)
+![automation2]({{ site.url }}/images/Ardour3_Automation_Button.png)
 
 An Automation Track will then appear. With the Select/Move Objects tool
 active, Automation Points can be created by clicking anywhere in an
 Automation Track. An Automation Line joins the Automation Points you
 add. The yellow number indicates the Gain level for the selected Automation Point.
 
-![automation3](../images/Ardour3_Automation_Fader3.png)
+![automation3]({{ site.url }}/images/Ardour3_Automation_Fader3.png)
 
 ### Automation States
 
 The Automation Curve will not play, however, until you set the Automation State to "*Play*".
 
-![automation state](../images/Ardour3_Automation_Fader2.png)
+![automation state]({{ site.url }}/images/Ardour3_Automation_Fader2.png)
 
 **Manual**: When set to "*Manual*", the Track will ignore any Automation data. It will just play with whatever volume is the Fader is set to. In this mode, you are able to move the Track Fader by hand to set a new fixed level. That's the default behavior of a Track when it's first created.
 
@@ -70,12 +70,12 @@ If these concepts are new to you, focus now on just the first two modes (*Manual
 You may add Automation to any Plugin which has already been added to a
 Track. In the example below, we have a "**AM pitchshifter**" Plugin added to a spoken voice track.
 
-![pluginautomation1](../images/Ardour3_Automation_Plugin1.png)
+![pluginautomation1]({{ site.url }}/images/Ardour3_Automation_Plugin1.png)
 
 In order to select a Plugin parameter for Automation, click the
 button on the Track marked "*a*". The menu will appear. Under "*Processor Automation*" you will find a listing of the Plugins you have added for that Track.
 
-![pluginautomation2](../images/Ardour3_Automation_Plugin2.png)
+![pluginautomation2]({{ site.url }}/images/Ardour3_Automation_Plugin2.png)
 
 Within each listed Plugin, you may choose which parameter you want to
 Automate from a list. In the example, we chose the parameter "*Pitch
@@ -85,7 +85,7 @@ will appear one after the other below the main parent Track.
 
 Draw an automation curve for that parameter. Don't forget to set the Automation State to "*Play*".
 
-![pluginautomation3](../images/Ardour3_Automation_Plugin3.png)
+![pluginautomation3]({{ site.url }}/images/Ardour3_Automation_Plugin3.png)
 
 In the image above, the pitch shift of the voice is now changing over time, controlled by the curve.
 
@@ -99,7 +99,7 @@ You can achieve a greater amount of vertical precision by increasing the
 height of the Automation Track. Move your cursor near the lower edge of the Automation Track. The pointer turns into a vertical double arrow. Drag it down to increase the height of the Automation Track. Notice that the parent Track and the Automation Track heights are independent, so while working in your Automation Curves you might set them up like this:
 
 
-![pluginautomation5](../images/Ardour3_Automation_Plugin5.png)
+![pluginautomation5]({{ site.url }}/images/Ardour3_Automation_Plugin5.png)
 
 
 > TIP: Remember you can also Zoom In and Out to increase resolution in the horizontal axis.
@@ -121,7 +121,7 @@ There are several ways ways of adjusting Automation Points:
 
 After an Automation Curve ends, the Fader will stay at that level for all subsequent regions, whether or not you have drawn a continuation of the curve.
 
-![end point](../images/Ardour3_Automation_Fader_End.png)
+![end point]({{ site.url }}/images/Ardour3_Automation_Fader_End.png)
 
 In the example above, the last point of the curve is at -23 decibels. That same level will be kept for the remainder of the Track, even though the line is not drawn until the end.
 
@@ -130,10 +130,10 @@ In the example above, the last point of the curve is at -23 decibels. That same 
 Moving a Region to a new location will automatically move the Automation data that might be aligned with it, as we can see in the following screen shots.
 
 Before moving:
-![mv1](../images/Ardour3_Automation_Moving.png)
+![mv1]({{ site.url }}/images/Ardour3_Automation_Moving.png)
 
 After moving:
-![mv2](../images/Ardour3_Automation_Moving2.png)
+![mv2]({{ site.url }}/images/Ardour3_Automation_Moving2.png)
 
 ## Drawing Gain Automation
 
@@ -142,7 +142,7 @@ chapter. This tool, the **Draw Gain Automation** tool, is found in the
 Edit Modes menu, and can also be used by typing the keyboard shortcut
 *"G".*
 
-![gain-automation](../images/Ardour3_EditModes_G.png)
+![gain-automation]({{ site.url }}/images/Ardour3_EditModes_G.png)
 
 Use this tool if you want to draw Region-specific volume **Automation**.
 
@@ -151,7 +151,7 @@ Region itself, unlike Fader Automation which is drawn or recorded in the
 Automation track. Region Gain Automation is separate from, and in
 addition to, Fader Automation.
 
-![gain-automation2](../images/Ardour3_Automation_Gain_Tool.png)
+![gain-automation2]({{ site.url }}/images/Ardour3_Automation_Gain_Tool.png)
 
 
 As with the Automation Tracks, a **Gain Automation Point** can be
@@ -163,7 +163,7 @@ Point, hold down the "*Shift*" key while Right-Clicking on it.
 Gain Automation can be reset or deactivated from the Region context
 menu, which is reached by Right-Clicking on the Region.
 
-![gain-automation3](../images/Ardour3_Automation_Gain_Tool_Reset.png)
+![gain-automation3]({{ site.url }}/images/Ardour3_Automation_Gain_Tool_Reset.png)
 
 Here, the Gain Automation is referred to as the **Envelope**. 
 
@@ -177,11 +177,11 @@ As seen above, both are very similar. With practice you will notice situations i
 
 * If all you need to do is a little touch up (cut or boost gain) in a specific portion of a Region, and you are otherwise happy with the level for the Rest of the passage or entire track, use the Gain Automation Tool.
 
-![gain-example1](../images/Ardour3_Automation_Gain_Tool_Example.png)
+![gain-example1]({{ site.url }}/images/Ardour3_Automation_Gain_Tool_Example.png)
 
 * If you have a more complex Track with crossfades over Regions, and/or need to shape a longer dynamic curve across several Regions on the same Track, use Fader Automation.
 
-![gain-example2](../images/Ardour3_Automation_Gain_Tool_Example_2.png)
+![gain-example2]({{ site.url }}/images/Ardour3_Automation_Gain_Tool_Example_2.png)
 
 ## Continuing
 

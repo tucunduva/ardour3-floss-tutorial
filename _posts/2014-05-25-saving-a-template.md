@@ -27,13 +27,13 @@ basis for each Session you created in that situation.
 
 You can save a new Template from the Main Menu: *Session > Save Template*. You are asked to give the new Template a name:
 
-![template1](../images/Ardour3_Save_Template1.png)
+![template1]({{ site.url }}/images/Ardour3_Save_Template1.png)
 
 ## Load a Template
 
 When creating a new Session, you get can now load up a previously saved Template:
 
-![template2](../images/Ardour3_Save_Template2.png)
+![template2]({{ site.url }}/images/Ardour3_Save_Template2.png)
 
 In summary: Session Templates are a way to store the setup of a session for future use. They do not store any audio data but can store:
 

@@ -19,7 +19,7 @@ sharing all the audio and data files of the Session.
 
 You can save a Snapshot via the menu: *Session > Snapshot* (shortcut "*Control*" + "*Shift*" + "*S*").
 
-![snapshots](../images/Ardour3_Snapshots1.png)
+![snapshots]({{ site.url }}/images/Ardour3_Snapshots1.png)
 
 By default the program will name the new Snapshot according to the
 current date and timestamp of your system. If you wish, you can change
@@ -31,7 +31,7 @@ are working on.
 You can recall a saved Snapshot via the '*Snapshots*' tab in the area on
 the right:
 
-![snapshot2](../images/Ardour3_Snapshot2.png)
+![snapshot2]({{ site.url }}/images/Ardour3_Snapshot2.png)
 
 There you see a few Snapshots that we created, and the '*my_session*' entry
 represents the original state of our session.

@@ -20,7 +20,7 @@ On Ubuntu, you can find and launch software using the Dash. Tap the
 and type Ardour. You can then click on the Ardour icon, or simply hit
 *Enter* when Ardour is the first search result:
 
-![Dash](../images/Ardour3_Ubuntu_Dash.png)
+![Dash]({{ site.url }}/images/Ardour3_Ubuntu_Dash.png)
 
 Click on **Ardour Digital Audio Workstation 3** and the program will
 start.
@@ -33,7 +33,7 @@ Sessions** options. For now let's create a fresh session, so click on
 
 Name your new project and click **Open** .
 
-![New Session](../images/Ardour3_New_Session_Simple.png)
+![New Session]({{ site.url }}/images/Ardour3_New_Session_Simple.png)
 
 > TIP: Avoid using any characters other than letters and numbers when naming your session. Avoid white spaces, accented letters, !@#$%*()+, periods, commas, etc. Use dashes or underscores if you like. For example, instead of "My Great Session!", prefer "My_Great_Session", or "MyGreatSession", or "my-great-session". Instead of "Açaí", write "Acai" (without accented letters), etc. Once you have created your Ardour session, do **not** manually rename any folders or files that belong to the Session.
 

@@ -18,7 +18,7 @@ it in a different editor program. This chapter shows you how.
 To Export a Region, select it (so it becomes blue), and then right-click into the sub-menu
 **Export**, or use the top menu: *Region > Export*.
 
-![export region](../images/Ardour3_Export_Region_1.png)
+![export region]({{ site.url }}/images/Ardour3_Export_Region_1.png)
 
 This will open up the same Export dialog box explained in the [Exporting a Session](../exporting-a-session) chapter.
 Choose your options, and click "Export". Only the selected Region will be exported.
@@ -37,17 +37,17 @@ If you are building a collection of samples to use later in another software, an
 
 * Go to menu *Region > Ranges* and choose *Add Range Marker Per Region*.
 
-![export region](../images/Ardour3_Export_Region_Multiple1.png)
+![export region]({{ site.url }}/images/Ardour3_Export_Region_Multiple1.png)
 
 * Ardour has now just created Range Markers that fit exactly the beginning and ending of your selected Regions (see the green rectangles in the Range Markers timeline):
 
-![export region](../images/Ardour3_Export_Region_Multiple2.png)
+![export region]({{ site.url }}/images/Ardour3_Export_Region_Multiple2.png)
 
 * Go to menu *Session > Export* and choose *Export to Audio File(s)*.
 
 * In the Export dialog box, click on the little triangle next to "*Time span and channel options*". You will see all the newly created Ranges listed there. There is also a default Range that stands for the entire Session. 
 
-![export region](../images/Ardour3_Export_Region_Multiple3.png)
+![export region]({{ site.url }}/images/Ardour3_Export_Region_Multiple3.png)
 
 * Under "Time Span", click "*Select All*", and de-select the very first Range (the "session" Range). The reason is because we want to export the shorter Ranges, not the whole Session.
 

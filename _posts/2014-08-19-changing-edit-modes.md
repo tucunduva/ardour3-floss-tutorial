@@ -16,7 +16,7 @@ this chapter we will get an overview of all the **Edit Modes** and
 
 ## Edit Modes and Cursor Modes
 
-![Ardour Edit Modes](../images/Ardour3_Edit_Modes_Cursor_Modes.png)
+![Ardour Edit Modes]({{ site.url }}/images/Ardour3_Edit_Modes_Cursor_Modes.png)
 
 These controls define the behavior of the main canvas and the different
 functions of the cursor.
@@ -30,7 +30,7 @@ cover them in detail here.
 
 ### Select/Move Object (shortcut "*O*")
 
-![O](../images/Ardour3_EditModes_O.png)
+![O]({{ site.url }}/images/Ardour3_EditModes_O.png)
 
 This Cursor Mode allows you to select or move objects such as regions
 and breakpoints (in an automation curve). When this Cursor Mode is
@@ -38,7 +38,7 @@ selected, your cursor pointer will look like a little hand icon.
 
 ### Range (shortcut "*R*")
 
-![R](../images/Ardour3_EditModes_R.png)
+![R]({{ site.url }}/images/Ardour3_EditModes_R.png)
 
 This Cursor Mode allows you to click and drag to define or resize
 Ranges.  When this Cursor Mode is selected, your cursor pointer will
@@ -46,7 +46,7 @@ look like a vertical line.
 
 ### Zoom Range (shortcut "*Z*")
 
-![Z](../images/Ardour3_EditModes_Z.png)
+![Z]({{ site.url }}/images/Ardour3_EditModes_Z.png)
 
 This Cursor Mode provides a box which can be dragged around an area of
 the Main Canvas. When the mouse is released, the view of the Canvas will
@@ -60,7 +60,7 @@ Marker, or Playhead).
 
 ### **Draw Gain Automation** (shortcut *"G"*)
 
-![G](../images/Ardour3_EditModes_G.png)
+![G]({{ site.url }}/images/Ardour3_EditModes_G.png)
 
 Use this Cursor Mode if you want to draw Region-specific volume
 **Automation**. The automation curve created this way will stick to the
@@ -72,11 +72,11 @@ is selected, your cursor pointer will look like a cross.
 
 Drawing Region-specific Gain Automation looks like this:
 
-![G2](../images/Ardour3_EditModes_G_2.png)
+![G2]({{ site.url }}/images/Ardour3_EditModes_G_2.png)
 
 ### **Stretch/Shrink Region** (shortcut *"T"*)
 
-![T](../images/Ardour3_EditModes_T.png)
+![T]({{ site.url }}/images/Ardour3_EditModes_T.png)
 
 This Cursor Mode allows you to drag and resize the duration of an entire
 Region without changing the Pitch. This is sometimes called 'Time
@@ -86,7 +86,7 @@ is selected, your cursor pointer will look like a diagonal arrow.
 
 ### **Listen to Specific Regions**
 
-![Audition](../images/Ardour3_EditModes_Audition.png)
+![Audition]({{ site.url }}/images/Ardour3_EditModes_Audition.png)
 
 This Cursor Mode allows you to click on any existing Region on any track
 and have it immediately played back. Playback stops at the end of the

@@ -13,7 +13,7 @@ image:
 **Ardour** is a Digital Audio Workstation (DAW). Beforing using it to record and edit sound, it might be
 useful to review how digital audio works.
 
-![analogue-digital](../images/Ardour3_Digital_Audio_1.png)
+![analogue-digital]({{ site.url }}/images/Ardour3_Digital_Audio_1.png)
 
 The diagram above shows how sound travels to and from your computer. The
 "Analogue to Digital Conversion" (ADC) and the "Digital to Analogue
@@ -31,7 +31,7 @@ determines the **Amplitude** (the volume, or *loudness*) of the sound.
 Normally, we measure Frequency in **Hertz** (Hz) and Amplitude in
 **Decibels** (dB).
 
-![speaker](../images/Ardour3_Digital_Audio_2.png)
+![speaker]({{ site.url }}/images/Ardour3_Digital_Audio_2.png)
 
 A microphone works like a loudspeaker in reverse: vibrations in the air
 cause its membrane to vibrate. The microphone turns these acoustic
@@ -51,7 +51,7 @@ as the **Waveform** we see below. The center horizontal line indicates
 the membrane of the speaker at rest, and the **Peaks** of the Waveform
 indicate the maximum **Amplitude.**
 
-![waveform](../images/Ardour3_Digital_Audio_Waveform.png)
+![waveform]({{ site.url }}/images/Ardour3_Digital_Audio_Waveform.png)
 
 If we take a Waveform and increase its the Amplitude a lot, some of the Peaks may now fall outside the range that the computer can represent digitally. The computer's inability to represent Peaks
 outside the range of Amplitude is called **Clipping**, which results in
@@ -59,7 +59,7 @@ a permanent loss of digital information, as well as a change in the
 sound quality which is recognizable as **Distortion**. Ardour marks
 clipped Peaks with the color red, as can be seen in the image below.
 
-![clipping](../images/Ardour3_Digital_Audio_Clipping2.png)
+![clipping]({{ site.url }}/images/Ardour3_Digital_Audio_Clipping2.png)
 
 In the image above, one can also see the **Mixer Strip** on the far left,
 which gives a running measurement of the Peaks, as well as an indication
