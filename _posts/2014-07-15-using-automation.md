@@ -177,7 +177,7 @@ As seen above, both are very similar. With practice you will notice situations i
 
 * If all you need to do is a little touch up (cut or boost gain) in a specific portion of a Region, and you are otherwise happy with the level for the Rest of the passage or entire track, use the Gain Automation Tool.
 
-![gain-example1]({{ site.url }}/images/Ardour3_Automation_Gain_Tool_Example.png)
+![gain-example1]({{ site.url }}/images/Ardour3_Automation_Gain_Tool.png)
 
 * If you have a more complex Track with crossfades over Regions, and/or need to shape a longer dynamic curve across several Regions on the same Track, use Fader Automation.
 
