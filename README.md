@@ -5,6 +5,10 @@ This tutorial provides a beginner's introduction to installing,
 configuring and using Ardour for basic sound recording and editing
 tasks.
 
+To see the live tutorial as published, click here:
+
+[http://brunoruviaro.github.io/ardour3-floss-tutorial/](http://brunoruviaro.github.io/ardour3-floss-tutorial/)
+
 The main body of the manual was written during a **Book Sprint**
 led by Derek Holzer in the moddr_lab
 ([http://moddr.net](http://moddr.net "moddr_lab @ WORM, Rotterdam")) at
