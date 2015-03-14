@@ -185,7 +185,7 @@ As seen above, both are very similar. With practice you will notice situations i
 
 ## Continuing
 
-Once you have your Automation in place, you're just about ready to
+Once you have your Automation in place, you are just about ready to
 Export your Stereo Mix to an audio file which you can listen to, burn as
 a CDR or convert to an MP3/OGG to share on a website. Please continue on
 to the next section, **Exporting Sessions**, to learn the different ways
