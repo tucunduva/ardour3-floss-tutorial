@@ -107,6 +107,15 @@ git clone https://github.com/yourname/ardour3-floss-tutorial.git
 
 * Finally, after previewing the change and confirming it all looks good, push the change to your online repository:
 
+`git push origin gh-pages`
+
+* You can now go to your GitHub online repository (https://github.com/yourname/ardour3-floss-tutorial, replace *yourname* with your actual user name) and you will see that the changes are included there. It is now time to create a pull request, that is, to propose the changes to the published tutorial (Bruno's repository).
+
+* Click on "Pull requests" in the right side column, and create a new pull request. Click through the pages to confirm the creation of pull request.
+
+* The change will be reviewed, discussed if necessary, and incorporated if appropriate. Thanks!
+
+
 
 
 
