@@ -12,11 +12,11 @@ image:
 
 Thanks for your interest in contributing to this tutorial. There are many ways to do so, from fixing a small typo to writing whole new sections.
 
-In order to make or propose edits, uou will need to create a GitHub account (http://gihub.com)
+In order to make or propose edits, you will need to create a GitHub account (http://gihub.com)
 
 ## Submtting an an issue
 
-An issue can be anything: reporting a typo, a mistake, an outdated passage; or any suggestions for improving the content and structure of the tutorial. This can be done directly through your browser, nothing else is needed.
+An issue can be anything: reporting a typo, a mistake, an outdated passage; or making any suggestions for improving the content and structure of the tutorial. This can be done directly through your browser; nothing else is needed.
 
 1. Log in to your GitHub account.
 
@@ -36,10 +36,10 @@ An issue can be anything: reporting a typo, a mistake, an outdated passage; or a
 
 * Submitting an issue is the easiest way to contribute: you just post your suggestion or idea and I'll review and fix the issue as appropriate.
 
-* If you have a little more experience with GitHub (or are willing to learn it), you can do more than just submitting issues. For example, you could edit the page yourself and propose the change ("pull request") to be included in the tutorial ("merged").
+* If you have a little more experience with GitHub (or are willing to learn it), you can do more than just submitting issues. For example, you could edit the page yourself and propose the change ("pull request") to be included in the tutorial ("merge").
 
 
-## Editing pages on your browser
+## Editing pages in your browser
 
 Another good way of proposing changes (like fixing a typo or a link) is to edit a post directly on the GitHub website. All the text lives inside the **_post** folder in the repository (yes, the one starting with an underline character, not just **post**). Simply follow these steps:
 
@@ -47,7 +47,9 @@ Another good way of proposing changes (like fixing a typo or a link) is to edit 
 
 2. Click on the file name to see its content.
 
-3. In the header portion of that page, you will see the icon of a little pencil to the right of the button "History". Click on the little pencil.
+3. In the header portion of that page, you will see the icon of a little pencil to the right of the button "History". Click on the little pencil:
+
+![little-pencil]({{ site.url }}/images/GitHub_Pencil.png)
 
 4. GitHub will show you a message saying something like *"You're editing a file in a project you don't have write access to. We've created a fork of this project for you to commit your proposed changes to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request."* That is all good and fine. It just means it created a working copy ("fork") of the tutorial in your own GitHub account, and you will be editing *that* copy instead. Only at the end of the process you will propose that change to my original repository ("pull request")  Go to next step.
 
