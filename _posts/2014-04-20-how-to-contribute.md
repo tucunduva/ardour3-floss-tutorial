@@ -23,7 +23,7 @@ This page explains three ways of contributing to this tutorial:
 The end of this page also contains additional information on headers, footers, images, and link to a few GitHub guides.
 
 
-## Submtting an issue
+## Method #1: Submtting an issue
 
 An issue can be anything: reporting a typo, a mistake, an outdated passage; or making any suggestions for improving the content and structure of the tutorial. This can be done directly through your browser; nothing else is needed.
 
@@ -48,7 +48,7 @@ An issue can be anything: reporting a typo, a mistake, an outdated passage; or m
 * If you are willing to learn a little bit more about GitHub, you can go beyond just submitting issues. For example, you could edit the page yourself and propose the change ("pull request") to be included in the published tutorial ("merge"). Read on if you would like to try.
 
 
-## Editing pages in your browser
+## Method #2: Editing pages in your browser
 
 A good way of proposing changes (like fixing a typo or a link) is to edit a page directly from the GitHub website. All the tutorial text lives inside the **_post** folder in the repository (yes, the one starting with an underline character, not just **post**). Each page is a separate file ending with the extension **.md** (stands for "markdown").
 
@@ -74,7 +74,7 @@ Simply follow these steps:
 
 10. You are done! I will receive the proposal, review it, and merge it to the published tutorial if appropriate.
 
-## Advanced editing
+## Method #3: Advanced editing
 
 You can do quite a lot of editing and writing directly from your browser using the method outlined above. For more extensive contributions, however, a common work flow is to clone the GitHub repository on your computer, make changes locally, preview them with Jekyll, commit and push changes to your online repository, and later create a pull request. The description below assumes you are minimally comfortable using the command line from a terminal. It also assumes you have successfully installed Jekyll ([http://jekyllrb.com/docs/installation/](http://jekyllrb.com/docs/installation/)) to preview changes locally.
 
