@@ -10,11 +10,20 @@ image:
   creditlink:  
 ---
 
-Thanks for your interest in contributing to this tutorial. There are many ways to do so, from fixing a small typo to writing whole new sections.
+Thanks for your interest in contributing to this tutorial.
 
-In order to make or propose edits, you will need to create a GitHub account (http://gihub.com)
+There are many ways to do so, from fixing a small typo to writing whole new sections. In order to make suggestions and propose edits, you will need to create a [GitHub](http://github.com) account.
 
-## Submtting an an issue
+This page explains three ways of contributing to this tutorial:
+
+1. Submitting an issue (easiest)
+2. Editing pages in your browser (easy)
+3. Advanced editing (less easy)
+
+The end of this page also contains additional information on headers, footers, images, and link to a few GitHub guides.
+
+
+## Submtting an issue
 
 An issue can be anything: reporting a typo, a mistake, an outdated passage; or making any suggestions for improving the content and structure of the tutorial. This can be done directly through your browser; nothing else is needed.
 
@@ -36,16 +45,18 @@ An issue can be anything: reporting a typo, a mistake, an outdated passage; or m
 
 * Submitting an issue is the easiest way to contribute: you just post your suggestion or idea and I'll review and fix the issue as appropriate.
 
-* If you have a little more experience with GitHub (or are willing to learn it), you can do more than just submitting issues. For example, you could edit the page yourself and propose the change ("pull request") to be included in the tutorial ("merge").
+* If you are willing to learn a little bit more about GitHub, you can go beyond just submitting issues. For example, you could edit the page yourself and propose the change ("pull request") to be included in the published tutorial ("merge"). Read on if you would like to try.
 
 
 ## Editing pages in your browser
 
-Another good way of proposing changes (like fixing a typo or a link) is to edit a post directly on the GitHub website. All the text lives inside the **_post** folder in the repository (yes, the one starting with an underline character, not just **post**). Simply follow these steps:
+A good way of proposing changes (like fixing a typo or a link) is to edit a page directly from the GitHub website. All the tutorial text lives inside the **_post** folder in the repository (yes, the one starting with an underline character, not just **post**). Each page is a separate file ending with the extension **.md** (stands for "markdown").
 
-1. Go to https://github.com/brunoruviaro/ardour3-floss-tutorial/tree/gh-pages/_posts and find the section you want to edit. If this is your first time, you may want to try the file **2014-04-20-dummy-page.md** (that page was made just for testing, so no worries of messing it up).
+Simply follow these steps:
 
-2. Click on the file name to see its content.
+1. Go to [https://github.com/brunoruviaro/ardour3-floss-tutorial/tree/gh-pages/_posts](https://github.com/brunoruviaro/ardour3-floss-tutorial/tree/gh-pages/_posts) and find the section you want to edit. If this is your first time, you may want to try the file **2014-04-20-dummy-page.md** (that page was made just for testing, so no worries of messing it up).
+
+2. Click on the file name (**2014-04-20-dummy-page.md**) to see its content.
 
 3. In the header portion of that page, you will see the icon of a little pencil to the right of the button "History". Click on the pencil icon:
 ![littlepencil]({{ site.url }}/images/GitHub_Pencil.png)
@@ -65,7 +76,7 @@ Another good way of proposing changes (like fixing a typo or a link) is to edit 
 
 ## Advanced editing
 
-You can do quite a lot of editing and writing directly from your browser using the method outlined above. For more extensive contributions, however, a common workflow is to clone the GitHub repository on your computer, make changes locally, preview them with Jekyll, commit and push changes to your online repository, and later create a pull request. The description below assumes you are minimally comfortable using the command line from a terminal. It also assumes you have successfully installed Jekyll ([http://jekyllrb.com/docs/installation/](http://jekyllrb.com/docs/installation/)) to preview changes locally.
+You can do quite a lot of editing and writing directly from your browser using the method outlined above. For more extensive contributions, however, a common work flow is to clone the GitHub repository on your computer, make changes locally, preview them with Jekyll, commit and push changes to your online repository, and later create a pull request. The description below assumes you are minimally comfortable using the command line from a terminal. It also assumes you have successfully installed Jekyll ([http://jekyllrb.com/docs/installation/](http://jekyllrb.com/docs/installation/)) to preview changes locally.
 
 Basic steps:
 
@@ -93,7 +104,7 @@ git clone https://github.com/yourname/ardour3-floss-tutorial.git
 
 * After finishing an edit, make sure the file is saved.
 
-* At this point you should be able to preview the new page locally, that is, in your browser window. For example, if you make a change to the file **2014-04-19-dummy-page.md** and save it, you will be able able to preview it at **http://localhost:4000/dummy-page/**.
+* At this point you should be able to preview the new page locally, that is, in your browser window. For example, if you make a change to the file **2014-04-19-dummy-page.md** and save it, you will be able able to preview it at **http://localhost:4000/dummy-page/**
 
 * Finally, after previewing the change and confirming it all looks good, `git add` and `git commit` the modified file. For example, after saving a change to the dummy page file, go to the terminal and run these two lines:
 
@@ -114,9 +125,9 @@ git clone https://github.com/yourname/ardour3-floss-tutorial.git
 
 
 
-## Important information on posts
+## Miscellaneous Information
 
-This section explains a few things you should know about the structure of a post and other miscellaneous items
+This section explains a few things you should know about the structure of a post, how to add images, and other miscellaneous items
 
 ### Header
 
