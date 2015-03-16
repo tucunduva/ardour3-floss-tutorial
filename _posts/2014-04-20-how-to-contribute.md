@@ -20,14 +20,14 @@ This page explains three ways of contributing to this tutorial:
 2. Editing pages in your browser (easy)
 3. Advanced editing (less easy)
 
-The end of this page also contains additional information on headers, footers, images, and link to a few GitHub guides.
+The end of this page also contains additional information on headers, footers, images, and links to a few GitHub guides.
 
 
-## Method #1: Submtting an issue
+## Method #1: Submitting an issue
 
 An issue can be anything: reporting a typo, a mistake, an outdated passage; or making any suggestions for improving the content and structure of the tutorial. This can be done directly through your browser; nothing else is needed.
 
-1. Log in to your GitHub account.
+1. Log in to your GitHub account
 
 2. Go to [https://github.com/brunoruviaro/ardour3-floss-tutorial](https://github.com/brunoruviaro/ardour3-floss-tutorial)
 
