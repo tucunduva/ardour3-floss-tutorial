@@ -122,16 +122,25 @@ This section explains a few things you should know about the structure of a post
 
 The first thing inside a post file should always be the header:
 
-```
-tag: wow
-tog: woowho
-```
+
+\-\-\-  
+layout: post  
+title: "How to Contribute"  
+description:  
+comments: false  
+tags: [07 APPENDICES]  
+image:  
+  feature: Ardour3_Empty_Session_Transparent.png  
+  credit:  
+  creditlink:  
+\-\-\-
+
 
 You should change the **title** and the **tags** field. By convention, the title field and the file name should match. For example, the title above is "How to Contribute", and the file name is **2014-04-20-how-to-contribute.md**.
 
 The date in the beginning of the file name is used to determine order of posts in the Table of Contents. For example, the post **2014-04-19-dummy-page.md** shows up right below   **2014-04-20-how-to-contribute.md**.
 
-The tags field determines where in the table of contents that page will show up.
+The **tags** field determines where in the table of contents that page will show up.
 
 
 ### Footer
@@ -157,7 +166,7 @@ Images should be saved in the **images** folder, and linked in the body of the t
 
 * Copy the png or jpg file to the **images** folder. Make sure to add and commit to git.
 
-* Refer to the file in your post using the convention explained above.
+* Refer to the file in your post using the syntax explained above.
 
 
 >Note: Because the {site.url} bit creates an absolute path to the original repository, you won't be able to see the preview of your new images in Jekyll, unless you temporarily change the url in _config.yml to localhost:4000 and restart Jekyll.
