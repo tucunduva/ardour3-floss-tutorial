@@ -82,8 +82,6 @@ You can do quite a lot of editing and writing directly from your browser using t
 
 A common work flow is to fork the main repository, clone your forked GitHub repository on your computer, make changes locally, preview them with Jekyll, commit and push changes to your online repository, and later create a pull request. The description below assumes you are minimally comfortable using the command line from a terminal. It also assumes you have successfully installed Jekyll ([http://jekyllrb.com/docs/installation/](http://jekyllrb.com/docs/installation/)) to preview changes locally.
 
-Basic steps:
-
 * Log in to your GitHub account and go to [https://github.com/brunoruviaro/ardour3-floss-tutorial](https://github.com/brunoruviaro/ardour3-floss-tutorial).
 
 * **Fork** your own copy of the repository to your account (Click on the Fork button on the upper right corner). You will be directed to your own fork of the tutorial: **https://github.com/yourname/ardour3-floss-tutorial**. The URL will have your own user name in place of "yourname".
@@ -114,7 +112,7 @@ git clone https://github.com/yourname/ardour3-floss-tutorial.git
 
 `jekyll serve --watch`
 
-* Open a browser and go to **http://localhost:4000** to see the preview.
+* Open a browser and go to **http://localhost:4000** to see the preview. You can stop the live preview at anytime by going back to the terminal and hitting control + C.
 
 #### Editing posts
 
@@ -124,7 +122,7 @@ git clone https://github.com/yourname/ardour3-floss-tutorial.git
 
 * At this point you should be able to preview the new page locally, that is, in your browser window. For example, if you make a change to the file **2014-04-19-dummy-page.md** and save it, you will be able able to preview it at **http://localhost:4000/dummy-page/**
 
->Note: some of the links may still take you to the original online site. The change to "localhost" above should make all internal links to point to your live local preview. Always make sure your browser points to localhost:4000. For example, the Table of Contents of your live preview should be at: http://localhost:4000/tags/ . If for any reason your browser is pointing to http://brunoruviaro.github.io/ardour3-floss-tutorial/tags . This means you have been taken out of your local live preview back to the original online site. Simply replace http://brunoruviaro.github.io/ardour3-floss-tutorial with http://localhost:4000/ in your browser.
+>Note: when viewing the live preview with jekyll, always make sure your browser points to localhost:4000. For example, the Table of Contents of your live preview should be at: http://localhost:4000/tags/ ; the post *2014-07-23-using-plugins.md* should be at http://localhost:4000/using-plugins/ etc. If for any reason your browser is pointing to http://brunoruviaro.github.io/ardour3-floss-tutorial/tags, this means you have been taken out of your local live preview back to the original online site. Simply replace http://brunoruviaro.github.io/ardour3-floss-tutorial/ with http://localhost:4000/ in your browser.
  
 #### Done editing? Add, commit, push
 
