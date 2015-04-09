@@ -19,7 +19,9 @@ and developers. The tutorial was originally written for Ardour 2.X versions. The
 The present update of the tutorial was written for Ardour 3.5. The text has been updated where necessary, and all screenshots were replaced with newer ones (matching Ardour 3.5.403). This revision was made by Bruno Ruviaro in December 2014.
 
 The Ardour community is invited to contribute content to this tutorial.
-All text and image files live in [https://github.com/brunoruviaro/ardour3-floss-tutorial](https://github.com/brunoruviaro/ardour3-floss-tutorial), which makes it easy for anyone to fork, revise, and remix this text.
+All text and image files live in [https://github.com/brunoruviaro/ardour3-floss-tutorial](https://github.com/brunoruviaro/ardour3-floss-tutorial), which makes it easy for anyone to fork, revise, and remix this text. For more information on how to contribute, please visit:
+
+[http://brunoruviaro.github.io/ardour3-floss-tutorial/how-to-contribute/](http://brunoruviaro.github.io/ardour3-floss-tutorial/how-to-contribute/)
 
 This FLOSS manual complements the Ardour reference manual currently
 under development by the Ardour community, which aims to provide an
